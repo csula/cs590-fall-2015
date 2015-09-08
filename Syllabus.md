@@ -1,10 +1,9 @@
-# CS590-fall-2015
 
-# Advanced Software Architecture
+# CS590-fall-2015 Advanced Software Architecture
 
 ## Course Overview
 
-- **Objective** The primary objective of the course is to introduce students to the concepts and patterns of software architecture.  We _will_ implement a complex software system that requires sound architectural design decisions.
+- **Objective** The primary objective of the course is to introduce students to the concepts and patterns of software architecture.  We _will_ implement a complex software system that requires sounded architectural design decisions.
 - **Expectation** The class will include lectures on topics relating to software architecture and on supplemental paper reading assignments.  Programming assignments will augment the theoretical aspects of software architecture.  Please understand that this is a graduate-level and upper-division engineering course.  As such, students are expected to devote a large amount of time to the programming assignments and course project.
 
 ## Logistics
