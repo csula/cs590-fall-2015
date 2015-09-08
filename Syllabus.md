@@ -1,5 +1,3 @@
-### CS590-fall-2015 
-
 # Advanced Software Architecture
 
 ## Course Overview
