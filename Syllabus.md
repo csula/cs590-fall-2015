@@ -12,6 +12,18 @@
 - **Office Hours** Monday 10-11 PM, Friday 10-11 PM, Saturday 10-11 PM 
 - **Text Book**  None; we will read papers and online journals.
 
+## Learning Objectives
+
+- Classic software architecture curriculum
+- Functional programmming - importance of immutability and functions as first class citizens
+- Building a software system vs. building an application
+- Design patterns for software architecture
+  -- Layered architecture
+  -- Event-driven
+  -- Microkernel
+  -- Microservice
+- Analysis of existing software and corresponding architecture style/pattern
+
 ## Grading Allocation
 
 1. Quizz (8) - 40 points
