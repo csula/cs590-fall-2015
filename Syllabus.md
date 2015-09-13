@@ -8,7 +8,7 @@
 ## Logistics
 
 - **Instructor** John J. Tran
-- **Lecture** Monday 6:10 - 10:10 PM, Friday 6:10 - 10:10 PM, or Sunday 6:10 - 10:10 PM 
+- **Lecture** Monday 6:10 - 10:10 PM, Friday 6:10 - 10:10 PM, or Saturday 6:10 - 10:10 PM 
 - **Office Hours** Monday 10-11 PM, Friday 10-11 PM, Saturday 10-11 PM 
 - **Text Book**  None; we will read papers and online journals.
 
@@ -42,7 +42,7 @@ Cheating on assignments and exams will not be tolerated. All parties involved wi
 
 The schedule below is tentative and is subject to change.
 
-* Lecture 1: [9/25,9/26,9/18] 
+* Lecture 1: [9/25,9/26,9/28] 
 
 * Lecture 2: [10/2,10/3,10/5] 
 
