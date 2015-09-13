@@ -18,10 +18,10 @@
 - Functional programmming - importance of immutability and functions as first class citizens
 - Building a software system vs. building an application
 - Design patterns for software architecture
-  -- Layered architecture
-  -- Event-driven
-  -- Microkernel
-  -- Microservice
+  - Layered architecture
+  - Event-driven
+  - Microkernel
+  - Microservice
 - Analysis of existing software and corresponding architecture style/pattern
 
 ## Grading Allocation
