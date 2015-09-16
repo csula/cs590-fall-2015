@@ -14,9 +14,9 @@
 
 ## Learning Objectives
 
-- Classic software architecture curriculum
 - Functional programmming - importance of immutability and functions as first class citizens
 - Building a software system vs. building an application
+- Classic software architecture curriculum
 - Design patterns for software architecture
   - Layered architecture
   - Event-driven
@@ -54,23 +54,24 @@ Cheating on assignments and exams will not be tolerated. All parties involved wi
 
 The schedule below is tentative and is subject to change.
 
-* Lecture 1: [9/25,9/26,9/28] 
+* Lecture 1: [9/25,9/26,9/28] Introduction; Functional programming primer
 
-* Lecture 2: [10/2,10/3,10/5] 
+* Lecture 2: [10/2,10/3,10/5] Classic software architecture (SA)
 
-* Lecture 3: [10/9,10/10,10/12] 
+* Lecture 3: [10/9,10/10,10/12] Design patterns & SA patterns
 
-* Lecture 4: [10/16,10/17,10/19]
+* Lecture 4: [10/16,10/17,10/19] Framework for building complex software systems 
 
-* Lecture 5: [10/23,10/24,10/26]
+* Lecture 5: [10/23,10/24,10/26] SA Pattern 1: Layered architecture
 
-* Lecture 6: [10/30,10/31,11/2]
+* Lecture 6: [10/30,10/31,11/2] SA Pattern 2: Event-driven
 
-* Lecture 7: [11/6,11/7,11/9]
+* Lecture 7: [11/6,11/7,11/9] SA Pattern 3: Microkernel
 
-* Lecture 8: [11/13,11/14,11/16]
+* Lecture 8: [11/13,11/14,11/16] SA Pattern 4: Microservice
 
-* Lecture 9: [11/20,11/21,11/23]
+* Lecture 9: [11/20,11/21,11/23] Analysis of popular frameworks and systems
 
-* Lecture 10: [11/27,11/28,11/30]
+* Lecture 10: [11/27,11/28,11/30] Project Discussion
 
+* Final Project Presentation [TBD]
