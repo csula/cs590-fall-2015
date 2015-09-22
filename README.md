@@ -2,11 +2,16 @@
 
 # Advanced Software Architecture
 
-Welcome to CS590 Advanced Software Architecture. This is a fast-paced course with emphasis architectural designs, coding, and implementation.
+Welcome to CS590 Advanced Software Architecture. This is a fast-paced course with emphasis architectural designs, coding, and implementation.  Please check the `README.md` often for news and announcements.
+
+## Quick Links
 
 * [Syllabus](Syllabus.md)
-
-Please check the `README.md` often for news and announcements.
+* [Homework 1](documents/homeworks/homework1.md)
+* [Homework 2](documents/homeworks/homework2.md)
+* [Homework 3](documents/homeworks/homework3.md)
+* [Homework 4](documents/homeworks/homework4.md)
+* [Project](documents/final-project/project.md)
 
 ## Announcements
 
