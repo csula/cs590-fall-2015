@@ -58,7 +58,7 @@ The schedule below is tentative and is subject to change.
 
 * Lecture 2: [10/2,10/3,10/5] [Classic software architecture (SA)](documents/notes/classic-software-architecture.md)
 
-* Lecture 3: [10/9,10/10,10/12] [Design patterns](documents/notes/design-patterns.md) & SA patterns
+* Lecture 3: [10/9,10/10,10/12] [Design patterns & SA patters](documents/notes/design-patterns.md)
 
 * Lecture 4: [10/16,10/17,10/19] [Framework for building complex software systems](framework-complex-systems.md) 
 
@@ -72,6 +72,6 @@ The schedule below is tentative and is subject to change.
 
 * Lecture 9: [11/20,11/21,11/23] [Analysis of popular frameworks and systems](documents/notes/analysis.md)
 
-* Lecture 10: [11/27,11/28,11/30] Project Discussion
+* Lecture 10: [11/27,11/28,11/30] [Project Discussion](documents/final-project/project.md)
 
-* Final Project Presentation [TBD]
+* Final Project: [TBD] Project demonstration and presentation
