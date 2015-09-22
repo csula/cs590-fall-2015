@@ -1,5 +1,3 @@
-**cs590-fall-2015**
-
 # Advanced Software Architecture
 
 Welcome to CS590 Advanced Software Architecture. This is a fast-paced course with emphasis architectural designs, coding, and implementation.  Please check the `README.md` often for news and announcements.
