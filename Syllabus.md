@@ -54,23 +54,23 @@ Cheating on assignments and exams will not be tolerated. All parties involved wi
 
 The schedule below is tentative and is subject to change.
 
-* Lecture 1: [9/25,9/26,9/28] Introduction; Functional programming primer
+* Lecture 1: [9/25,9/26,9/28] [Introduction](documents/notes/introduction.md); [Functional programming primer](documents/notes/functional-primer.md)
 
-* Lecture 2: [10/2,10/3,10/5] Classic software architecture (SA)
+* Lecture 2: [10/2,10/3,10/5] [Classic software architecture (SA)](documents/notes/classic-software-architecture.md)
 
-* Lecture 3: [10/9,10/10,10/12] Design patterns & SA patterns
+* Lecture 3: [10/9,10/10,10/12] [Design patterns](documents/notes/design-patterns.md) & SA patterns
 
-* Lecture 4: [10/16,10/17,10/19] Framework for building complex software systems 
+* Lecture 4: [10/16,10/17,10/19] [Framework for building complex software systems](framework-complex-systems.md) 
 
-* Lecture 5: [10/23,10/24,10/26] SA Pattern 1: Layered architecture
+* Lecture 5: [10/23,10/24,10/26] SA Pattern 1: [Layered architecture](documents/notes/layered-architecture.md)
 
-* Lecture 6: [10/30,10/31,11/2] SA Pattern 2: Event-driven
+* Lecture 6: [10/30,10/31,11/2] SA Pattern 2: [Event-driven](documents/notes/event-driven.md)
 
-* Lecture 7: [11/6,11/7,11/9] SA Pattern 3: Microkernel
+* Lecture 7: [11/6,11/7,11/9] SA Pattern 3: [Microkernel](documents/notes/microkernel.md)
 
-* Lecture 8: [11/13,11/14,11/16] SA Pattern 4: Microservice
+* Lecture 8: [11/13,11/14,11/16] SA Pattern 4: [Microservice](documents/notes/microservice.md)
 
-* Lecture 9: [11/20,11/21,11/23] Analysis of popular frameworks and systems
+* Lecture 9: [11/20,11/21,11/23] [Analysis of popular frameworks and systems](documents/notes/analysis.md)
 
 * Lecture 10: [11/27,11/28,11/30] Project Discussion
 
