@@ -20,8 +20,8 @@
 
 We will use clojure as development language for the course.  You are free to use the development environment/IDE of your choice.  I recommends one of the following tools:
 
-* [emacs](https://www.gnu.org/software/emacs/) -- the _de facto_ editor for clojure developers.  It has many plugins and customizations that makes this the best option.  Note there is somewhat of a steep learning curve. However, the payoff is huge.
-* [LightTable](http://lighttable.com/) -- this up and coming IDE makes it very suitable for the REPL programming model.
+* [emacs](https://www.gnu.org/software/emacs/) is the _de facto_ editor for clojure developers.  It has many plugins and customizations that makes this the best option.  Note there is somewhat of a steep learning curve. However, the payoff is huge.
+* [LightTable](http://lighttable.com/) is an up and coming IDE that is very suitable for the REPL programming model.
 * [leinigen](http://leiningen.org/) is the _de facto_ build tool for clojure.  There is simply nothing better out there.  It heavily leverages `maven` and in some sense, one can make an argument that `leinigen` is `maven` done right.
 
 In addition to the above tools, we will discover and utilize new tools and libraries as the course progresses forward.
