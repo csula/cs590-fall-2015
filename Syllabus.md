@@ -21,7 +21,7 @@
   - Layered architecture
   - Event-driven
   - Microkernel
-  - Microservice
+  - Microservices
 - Analysis of existing software and corresponding architecture styles and patterns
 
 ## Grading Allocation
@@ -68,7 +68,7 @@ The schedule below is tentative and is subject to change.
 
 * Lecture 7: [11/6,11/7,11/9] [SA Pattern 3: Microkernel](documents/notes/microkernel.md)
 
-* Lecture 8: [11/13,11/14,11/16] [SA Pattern 4: Microservice](documents/notes/microservice.md)
+* Lecture 8: [11/13,11/14,11/16] [SA Pattern 4: Microservices](documents/notes/microservice.md)
 
 * Lecture 9: [11/20,11/21,11/23] [Analysis of popular frameworks and systems](documents/notes/analysis.md)
 
