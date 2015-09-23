@@ -54,7 +54,7 @@ Cheating on assignments and exams will not be tolerated. All parties involved wi
 
 The schedule below is tentative and is subject to change.
 
-* Lecture 1: [9/25,9/26,9/28] [Introduction](documents/notes/introduction.md); [functional programming primer](documents/notes/functional-primer.md)
+* Lecture 1: [9/25,9/26,9/28] [Introduction](documents/notes/01_introduction.md); [functional programming primer](documents/notes/02_functional-primer.md)
 
 * Lecture 2: [10/2,10/3,10/5] [Classic software architecture (SA)](documents/notes/classic-software-architecture.md)
 
