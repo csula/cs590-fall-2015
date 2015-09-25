@@ -11,14 +11,23 @@
 
 ## Reading Assignment
 
-## Lambda Calculus
+## Pure functions
 
 Pure functions have two requirements:
 * `referential transparency` -- always return the same result if provided same arguments
-* No side effects
+* No side effects -- through immutable data structures
 
 Other intangible aspects of Functional Programming:
 * Functions are first class citizens; treatment of functions (shifting our way of thinking) are same (if not more important than data)
 * Emphasis on algorithm of data structure
 * Small and decomposable functions (tasks or actions)
 
+### Recursion
+
+Functional programmers rely heavily on recursion; several important (fringe) benefits of recursion is the enforcement of immutability and making code more elegant.
+
+### Functional Decomposition
+
+Decoupling function and data; breakdown problem into decomposable abstraction rather than data.  The focus here is on functions (doing) versus data (being).
+
+## Lambda Calculus
