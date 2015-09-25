@@ -7,7 +7,7 @@
 
 ## Metrics/Desired Outcomes
 
-* Write a simple `hello-world.clj` from scratch
+* Write a simple `helloworld.clj` from scratch
 
 ## Reading Assignment
 
