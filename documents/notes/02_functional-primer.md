@@ -30,4 +30,18 @@ Functional programmers rely heavily on recursion; several important (fringe) ben
 
 Decoupling function and data; breakdown problem into decomposable abstraction rather than data.  The focus here is on functions (doing) versus data (being).
 
-## Lambda Calculus
+## Introduction to Clojure Videos
+
+1. Getting Started with Light Table (3:14)
+2. Types (4:51)
+3. Control Flow (6:07)
+4. Functions (7:42)
+5. Collections (7:02)
+6. Recursions (8:16)
+7. Leinigen (4:05)
+8. Modules (3:44)
+
+## Exercise
+
+Write our first `helloworld.clj` clojure program.
+
