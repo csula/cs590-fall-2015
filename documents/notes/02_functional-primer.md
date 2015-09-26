@@ -18,13 +18,17 @@ Pure functions have two requirements:
 * No side effects -- through immutable data structures
 
 Other intangible aspects of Functional Programming:
-* Functions are first class citizens; treatment of functions (shifting our way of thinking) are same (if not more important than data)
-* Emphasis on algorithm of data structure
+* Functions are first class citizens
+* Treatment of functions (shifting our way of thinking) are more important than data
+* Emphasis on algorithm over data structures
 * Small and decomposable functions (tasks or actions)
 
 ### Recursion
 
 Functional programmers rely heavily on recursion; several important (fringe) benefits of recursion is the enforcement of immutability and making code more elegant.
+
+* Base case (aka stopping condition)
+* Induction step (moving to the next recursion)
 
 ### Functional Decomposition
 
@@ -44,4 +48,9 @@ Decoupling function and data; breakdown problem into decomposable abstraction ra
 ## Exercise
 
 Write our first `helloworld.clj` clojure program.
+
+* Do this with `LightTable`
+* Do this with `lein` project
+
+Run the helloworld using the REPL tool and run it using `lein`
 
