@@ -14,7 +14,7 @@
 
 ## Reading Assignment
 
-* Higginbotham, Daniel. Chapter 3 from [Clojure for the Brave and True](http://www.braveclojure.com/). A free PDF version (of Chapter 3) is available from No Starch Press.
+* Misophistful's [Introduction to Light Table](https://www.youtube.com/watch?v=1f13TTu_X9k).  This is an excellent 33 minute video on Light Table and it incorporates clojure and clojurescript development.
 
 ## Development Environment
 
