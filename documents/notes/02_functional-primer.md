@@ -11,6 +11,8 @@
 
 ## Reading Assignment
 
+* Higginbotham, Daniel. Chapter 3 from [Clojure for the Brave and True](http://www.braveclojure.com/). A free PDF version (of Chapter 3) is available from No Starch Press.
+
 ## Pure functions
 
 Pure functions have two requirements:
