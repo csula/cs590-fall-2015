@@ -43,10 +43,7 @@ Decoupling function and data; breakdown problem into decomposable abstraction ra
 2. Types (4:51)
 3. Control Flow (6:07)
 4. Functions (7:42)
-5. Collections (7:02)
-6. Recursions (8:16)
-7. Leinigen (4:05)
-8. Modules (3:44)
+5. Leinigen (4:05)
 
 ## Exercise
 
