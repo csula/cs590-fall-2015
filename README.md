@@ -8,7 +8,11 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 * Lecture 1: [Introduction](documents/notes/01_introduction.md) and [Functional Primer](documents/notes/02_functional-primer.md).
 
-  * There are a few reading (and video watching) assignments.  They are light on theory and more on practice sprinkled with the discussion of a novel software architecture called BOT.
+* Regarding the reading and video-watching assignments, they are light on theory and more on practice.  Note that the reading assignments are required. In otherwords, you will be asked about them on the quiz.
+
+  * Quiz tip 1: Understand the basic tenets of a BOT architecture.
+
+  * Quiz tip 2: Practice code found in chapter 3 of [Clojure for the Brave and True](http://www.braveclojure.com/).
 
 * A number of students have asked if they can attend a different session than the one that they are assigned to attend.  My short answer is: it should be fine.  However, please keep in mind that once you attend a different session, you need to stick to that session.  This is because of the varying class dynamics and pace.
 
