@@ -11,6 +11,7 @@
 * Github
 * Homework submission process
 * In class quiz (not graded)
+* Completion of reading assignment
 
 ## Reading Assignment
 

@@ -8,6 +8,7 @@
 ## Metrics/Desired Outcomes
 
 * Write a simple `helloworld.clj` from scratch
+* Completion of reading assignment and exercise
 
 ## Reading Assignment
 
