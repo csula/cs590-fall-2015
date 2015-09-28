@@ -12,7 +12,7 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
   * Quiz tip 1: Understand the basic tenets of a BOT architecture.
 
-  * Quiz tip 2: Practice code found in chapter 3 of [Clojure for the Brave and True](http://www.braveclojure.com/).
+  * Quiz tip 2: Practice code found in chapter 3 of [Clojure for the Brave and True](https://www.nostarch.com/download/Clojure%20for%20the%20Brave%20and%20True_sample_ch3.pdf).
 
 * A number of students have asked if they can attend a different session than the one that they are assigned to attend.  My short answer is: it should be fine.  However, please keep in mind that once you attend a different session, you need to stick to that session.  This is because of the varying class dynamics and pace.
 
