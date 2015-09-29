@@ -12,7 +12,6 @@
 
 ## Reading Assignment
 
-* Higginbotham, Daniel. Chapter 3 from [Clojure for the Brave and True](http://www.braveclojure.com/). 
 * [Chapter 3: Doing Things A Clojure Crash Course](https://www.nostarch.com/download/Clojure%20for%20the%20Brave%20and%20True_sample_ch3.pdf). A free pdf version is available from No Starch Press.
 
 ## Pure functions
