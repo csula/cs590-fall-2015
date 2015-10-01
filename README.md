@@ -21,8 +21,8 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
   (str (apply str args)))
   
 (defn combine-with-space [& args]
-   "Return a string that is a joined collection with each element
-    having a space appended"
+  "Return a string that is a joined collection with each element
+   having a space appended"
   (str (apply str (map (fn [x] (str x " ")) args))))
 
 (println (combine "John" "Mike" "James"))
