@@ -17,14 +17,12 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 * [9/30/2015] Clarification on the MR example in class:
 ```clojure
 (defn combine [& args]
-  "combine a variable number of arguments into collection <args> 
-   and append them with the str function"
+  "Return a string as joined collection"
   (str (apply str args)))
   
 (defn combine-with-space [& args]
-  "combine a variable number of arguments into collection <args> 
-   and append them with the str function on a map that combines 
-   each element with a space"
+   "Return a string that is a joined collection with each element
+    having a space appended"
   (str (apply str (map (fn [x] (str x " ")) args))))
 
 (println (combine "John" "Mike" "James"))
