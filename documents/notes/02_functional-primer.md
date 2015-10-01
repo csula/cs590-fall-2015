@@ -50,7 +50,7 @@ Using the information that you have learned so far, write a `combine` and a `com
 
 This is a good litmus test to see if you can handle the programming assignments for this course.  If you have have trouble with any items below, you should think carefully if CS590 is the correct course at this point in your studies:
 
-* Using Light Table` to write your code and using the `REPL` to manipulate and debug your functions
+* Using `Light Table` to write your code and using the `REPL` to manipulate and debug your functions
 * Using `lein` to compile and run from the command line
 * Understanding (translating) the quiz objective into code
 
