@@ -4,7 +4,11 @@
 
 ## Metrics/Desired Outcomes
 
+* Comprehension of the keypoints of software architecture.
+
 ## Reading Assignment
+
+* Fairbanks, George. [Introduction to Software Architecture](https://www.youtube.com/watch?v=x30DcBfCJRI).  We will watch and discuss this video in class.
 
 ## Introduction to Clojure Videos (continued)
 
@@ -14,3 +18,4 @@
 
 ## Software Architecture
 
+Here are some keypoints about classic software architectures.

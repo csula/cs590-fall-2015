@@ -6,6 +6,25 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+* Lecture 2: [Classic Software Architecture](documents/notes/03_classic-software-architecture.md)
+
+* Note that we will **not** have a quiz this week.  Quiz 1 will be postponed to the following week.  We will continue to review some more functional programming examples to get people more comfortable.
+
+* Clarification on the MR example in class:
+
+```clojure
+(defn combine [& args]
+  "combine a variable number of arguments into collection <args> and append them with the str function"
+  (str (apply str args)))
+  
+(defn combine-with-space [& args]
+  "combine a variable number of arguments into collection <args> and append them with the str function on a map that combines each element with a space"
+  (str (apply str (map (fn [x] (str x " ")) args))))
+
+(println (combine "John" "Mike" "James"))
+(println (combine-with-space "John" "Mike" "James"))
+```
+
 * Lecture 1: [Introduction](documents/notes/01_introduction.md) and [Functional Primer](documents/notes/02_functional-primer.md).
 
 * Regarding the reading and video-watching assignments, they are light on theory and more on practice.  Note that the reading assignments are required. In otherwords, you will be asked about them on the quiz.
