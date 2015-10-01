@@ -12,11 +12,11 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
-* [10/1/2015] Before looking at the solution to the non-graded quiz below, you should take a look at the [non-graded quiz](documents/notes/02_functional-primer.md#non-graded-quiz) and use it as a checkpoint.
+* [10/1/2015] Before looking at the solution, you should take a look at the [non-graded quiz](documents/notes/02_functional-primer.md#non-graded-quiz) and use it as a checkpoint.
 
 * [9/30/2015] Note that we will **not** have a quiz this week.  Quiz 1 will be postponed to the following week.  We will continue to review some more functional programming examples to get people more comfortable.
 
-* [9/30/2015] Clarification on the MR example in class:
+* [9/30/2015] Non-grade quiz solution & clarification on the MR example in class:
 ```clojure
 (defn combine [& args]
   "Return a string as joined collection"
