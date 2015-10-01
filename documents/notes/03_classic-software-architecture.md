@@ -2,6 +2,8 @@
 
 ## Objectives
 
+* WIP
+
 ## Metrics/Desired Outcomes
 
 * Comprehension of the keypoints of software architecture.
@@ -18,4 +20,4 @@
 
 ## Software Architecture
 
-Here are some keypoints about classic software architectures.
+* WIP
