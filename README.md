@@ -4,8 +4,6 @@
 
 Welcome to CS590 Advanced Software Architecture. This is a fast-paced course with emphasis architectural designs, coding, and implementation.  Please check the `README.md` often for news and announcements.
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/csula/cs590-fall-2015?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
 ## Quick Links
 
 * [Syllabus](Syllabus.md)
