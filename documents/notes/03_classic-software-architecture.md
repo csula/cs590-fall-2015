@@ -23,15 +23,22 @@
 
 ## Classic Software Architecture Curriculum
 
-### Introduction to Software Architecture 
+### Introduction to Software Architecture  (0:00 - 29:22)
 * Introduction video segment (0:00 - 29:22)
 * Provided some motivations as to why software architecture is important
 * Tradeoffs
 * Many architectures yield different choices
 * Case Study of Rackspace three design models
 
-### Main Portion of the lecture
-* Main lecture is (29:23 - end)
+### Part 1 (29:22 - 54:42)
 * Differences between architecture, architecting, and architect
-* Views: consitent or inconsistent views; limited view on a system's component; view are specific to task/goal
+* Views: consitent or inconsistent views; limited view on components; view are specific to task/goal
 * Non-functional requirement: quality attributes; dimension of quality to measure software (latency, security, ...)
+* Design Space: range and constraints to make a decision
+* Tradeoffs: not everything can be addressed or met
+* Architecture Drivers: quality measure of how the system is to perform; helps identify and select architecture choice
+
+### Part 2 (57:00)
+* Rational Architecture Decisions: "X is a priority so we design Y accepting downside Z"
+
+### Part 3
