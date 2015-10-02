@@ -3,7 +3,7 @@
 ## Objectives
 
 * Understand functional programming collection, recursion, and modules
-* Understand classic software archiecture curriculum
+* Understand classic software architecture topics
 
 ## Metrics/Desired Outcomes
 
@@ -70,8 +70,13 @@
   * Read your old code: let us talk about it
   * Know the difference between `library` and `framework`
 
-### Part 5 (1:50:50 - end) 
+### Part 5 (1:50:50 - 2:06:39) 
 * Architecture is done at large level
   * Comparison between Web and Large System
 * Look at failures: analyze and choose solution that minimize penalties on failfure
-
+* Risk management: why is software architecture risk analysis important?  What are techniques to mitigate risk?
+  * Protocol analysis
+  * Component and connector modeling
+  * Queueing theory
+  * Scalability analysis
+  * Threat analysis
