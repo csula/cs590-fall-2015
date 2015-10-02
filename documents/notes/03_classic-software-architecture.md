@@ -57,7 +57,7 @@
 * Tradeoffs are built into the patterns
 * Conceptual Models: recognition of the concept
 
-### Part 3 (1:30:17 - 1:50:50)
+### Part 4 (1:30:17 - 1:50:50)
 * Engineering Models: models is for simplicity  
 * Canonical Models:
   * Domain model
@@ -70,7 +70,7 @@
   * Read your old code: let us talk about it
   * Know the difference between `library` and `framework`
 
-### Part 4 (1:50:50 - end) 
+### Part 5 (1:50:50 - end) 
 * Architecture is done at large level
   * Comparison between Web and Large System
 * Look at failures: analyze and choose solution that minimize penalties on failfure
