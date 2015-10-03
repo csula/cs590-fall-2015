@@ -14,6 +14,7 @@
 ## Reading Assignment
 
 * Fairbanks, George. [Introduction to Software Architecture](https://www.youtube.com/watch?v=x30DcBfCJRI).  We will watch and discuss this video in class.
+* Bachmann, Felix et al. [Documenting Software Architecture: Documenting Behavior](https://www.sei.cmu.edu/reports/02tn001.pdf).  Read pages 1-30; note that this paper will not be on the quiz.
 
 ## Introduction to Clojure Videos (continued)
 
