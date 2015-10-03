@@ -1,4 +1,4 @@
-# Functional Primer
+# Functional Programming Primer
 
 ## Objectives
 1. Introduction to Functional Programming and Lambda Calculus
