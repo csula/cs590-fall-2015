@@ -12,6 +12,8 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+* [10/2/2015] As of today, the Monday class is full.  You can no longer switch any session unless you have **explicit** permission from me.
+
 * [10/1/2015] Before looking at the solution, you should take a look at the [non-graded quiz](documents/notes/02_functional-primer.md#non-graded-quiz) and use it as a checkpoint.
 
 * [9/30/2015] Note that we will **not** have a quiz this week.  Quiz 1 will be postponed to the following week.  We will continue to review some more functional programming examples to get people more comfortable.
