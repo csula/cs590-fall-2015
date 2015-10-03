@@ -9,7 +9,7 @@
 
 * Comprehension of collections in clojure 
 * Write recursive functions with clojure
-* Comprehension of the keypoints of classical software architecture
+* Comprehension of the keypoints of classic software architecture
 
 ## Reading Assignment
 
@@ -25,11 +25,12 @@
 ## Classic Software Architecture Curriculum
 
 ### Introduction to Software Architecture (0:00 - 29:22)
-* Introduction video segment
 * Provided some motivations as to why software architecture is important
 * Tradeoffs
 * Many architectures yield different choices
 * Case Study of Rackspace three design models
+
+Note: Students should watch the introduction video segment on their own.
 
 ### Part 1 (29:22 - 54:42)
 * Differences between architecture, architecting, and architect
