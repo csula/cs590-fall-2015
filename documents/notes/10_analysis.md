@@ -1,4 +1,4 @@
-# Lecture 10: Analysis of Popular Frameworks and Systems
+# Analysis of Popular Frameworks and Systems
 
 ## Objectives
 

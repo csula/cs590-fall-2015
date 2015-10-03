@@ -1,4 +1,4 @@
-# Lecture 6: Software Architecture Pattern 2: Event-Driven
+# Software Architecture Pattern 2: Event-Driven
 
 ## Objectives
 

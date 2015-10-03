@@ -1,4 +1,4 @@
-# Lecture 1: Introduction
+# Introduction
 
 ## Objectives
 

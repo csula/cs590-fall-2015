@@ -1,4 +1,4 @@
-# Lecture 2: Classic Software Architecture
+# Classic Software Architecture
 
 ## Objectives
 

@@ -1,4 +1,4 @@
-# Lecture 4: Framework for Building Complex Software Systems
+# Framework for Building Complex Software Systems
 
 ## Objectives
 

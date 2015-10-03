@@ -1,4 +1,4 @@
-# Lecture 3: Design Patterns & Software Architecture Design Patterns
+# Design Patterns & Software Architecture Design Patterns
 
 ## Objectives
 

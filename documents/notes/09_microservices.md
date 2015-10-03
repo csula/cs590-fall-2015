@@ -1,4 +1,4 @@
-# Lecture 9: Software Architecture 4: Microservices
+# Software Architecture 4: Microservices
 
 ## Objectives
 

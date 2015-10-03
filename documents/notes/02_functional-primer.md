@@ -1,4 +1,4 @@
-# Lecture 1: Functional Primer
+# Functional Primer
 
 ## Objectives
 1. Introduction to Functional Programming and Lambda Calculus

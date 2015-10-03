@@ -1,4 +1,4 @@
-# Lecture 7: Software Architecture Pattern 3: Microkernel
+# Software Architecture Pattern 3: Microkernel
 
 ## Objectives
 

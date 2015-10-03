@@ -1,4 +1,4 @@
-# Lecture 5: Software Architecture Pattern 1: Layered Architecture
+# Software Architecture Pattern 1: Layered Architecture
 
 ## Objectives
 
