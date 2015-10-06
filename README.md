@@ -12,6 +12,8 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+* [10/5/2015] This is to remind students [clojuredocs.org](http://clojuredocs.org) is an excellent reference site for clojure programming.  Also, note that if you find yourself writing a function or routine, please check to see if this has already been written.  Chances are that someone has already wrote something similar to what you're intending to write.
+
 * [10/2/2015] As of today, the Monday class is full.  You can no longer switch class unless you have **explicit** permission from me. As a side note, for those of you thinking that by attending the Monday session, you can perhaps get a leg up on the quiz questions, don't bother!  Your quizzes will consist of 5 questions randomly drawn from a pool of questions.
 
 * [10/1/2015] Before looking at the solution, you should take a look at the [non-graded quiz](documents/notes/02_functional-primer.md#non-graded-quiz) and use it as a checkpoint.
