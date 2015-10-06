@@ -2,7 +2,7 @@
 
 ## Objectives
 
-* Understand functional programming collection, recursion, and modules
+* Understand functional programming collections, recursion, and modules
 * Understand classic software architecture topics
 
 ## Metrics/Desired Outcomes
@@ -82,3 +82,5 @@ Note: Students should watch the introduction video segment on their own.
   * Queueing theory
   * Scalability analysis
   * Threat analysis
+
+
