@@ -12,6 +12,29 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+* [10/8/2015] A student asked me this question:
+
+> I had a doubt regarding the "let" function, while teaching us you told us that "let" function can be used to create variables which could be used within a particular scope. 
+
+Here is an example of how `let` is used:
+```clojure
+(defn f []
+  (let [a "string a"
+        b 1
+        c #{1 2 3}]
+     (println "a =" a)
+     (println "b =" b)
+     (println "c =" c)))
+```
+
+> I was planning to use it within my function, but I got an error which said that "let" function can be used only on vectors (I was trying to use it on a set).  I wanted to know if there is any particular reason behind this restriction. 
+
+`let` is a clojure special form (fundamental part of the language).  It's not a function per se.  That being said, it task a vector as an argument.  The expansion of the vector a set of variables and their values, respectively.
+
+> And, my other doubt was if I had to create a temporary variable usable only inside a recursive function and if I use "def" function to do that then on every recursive call I will be creating a variable with the same name, will it cause a problem? 
+
+The use of `def` is not encouraged and should be used sparingly.  In this sense whenever you define a variable with `def` it is only visible in that scope.  When exiting from the scope the variable goes out of scope.
+
 * [10/5/2015] This is to remind students that [clojuredocs.org](http://clojuredocs.org) is an excellent reference site for clojure programming.  Also, note that if you find yourself writing a function or routine, please check to see if this has already been written.  Chances are that someone has already written something similar to what you're intending to write.
 
 * [10/2/2015] As of today, the Monday class is full.  You can no longer switch class unless you have **explicit** permission from me. As a side note, for those of you thinking that by attending the Monday session, you can perhaps get a leg up on the quiz questions, don't bother!  Your quizzes will consist of 5 questions randomly drawn from a pool of questions.
