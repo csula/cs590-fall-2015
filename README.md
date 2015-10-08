@@ -29,7 +29,7 @@ Here is an example of how `let` is used:
 
 > I was planning to use it within my function, but I got an error which said that "let" function can be used only on vectors (I was trying to use it on a set).  I wanted to know if there is any particular reason behind this restriction. 
 
-`let` is a clojure special form (fundamental part of the language).  It's not a function per se.  That being said, it task a vector as an argument.  The expansion of the vector a set of variables and their values, respectively.
+`let` is a clojure special form (fundamental part of the language).  It's not a function per se.  That being said, it takes a vector as an argument.  The expansion of the vector argument is a set of interweaving variables and their values, respectively.
 
 > And, my other doubt was if I had to create a temporary variable usable only inside a recursive function and if I use "def" function to do that then on every recursive call I will be creating a variable with the same name, will it cause a problem? 
 
