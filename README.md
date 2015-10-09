@@ -12,7 +12,7 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
-* [10/9/2015] A number of students asked what do they need to review to be prepared for the quiz.  Students need do the reading and watch the videos.  There are papers and articles that I have and will list.  Students are responsible for reading these papers and articles.  As for the programming part, the quiz will include simple code snippets. You will not be asked to write a full application during the quiz (this is not feasible nor practical).
+* [10/9/2015] A number of students asked what do they need to review to be prepared for the quiz.  Students need do the reading and watch the videos listed in the `Reading Assignment` section.  As for the programming part, the quiz will include simple code snippets. You will not be asked to write a full application during the quiz (this is not feasible nor practical).
 
 * [10/8/2015] A student asked me this question:
 
