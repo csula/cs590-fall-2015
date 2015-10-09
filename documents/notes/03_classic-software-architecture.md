@@ -46,7 +46,7 @@ Note: Students should watch the introduction video segment on their own.
 * Standard Notation: consistent notation and language for architecture diagram.  Best option is UML.
 * Guiderails: constraints (self-imposed)
   * Make sure you understand the `3-tier system`
-  * [Itempotency](https://stackoverflow.com/questions/1077412/what-is-an-idempotent-operation): multiple calls on the same function & arguments return the same result.  
+  * [Idempotency](https://stackoverflow.com/questions/1077412/what-is-an-idempotent-operation): multiple calls on the same function & arguments return the same result.  
 
 ## Part 3 (1:16:00 - 1:30:17)
 * Architecture Styles
@@ -75,7 +75,7 @@ Note: Students should watch the introduction video segment on their own.
 ### Part 5 (1:50:50 - 2:06:39) 
 * Architecture is done at large level
   * Comparison between Web and Large System
-* Look at failures: analyze and choose solution that minimize penalties on failfure
+* Look at failures: analyze and choose solution that minimize penalties on failure
 * Risk management: why is software architecture risk analysis important?  What are techniques to mitigate risk?
   * Protocol analysis
   * Component and connector modeling
