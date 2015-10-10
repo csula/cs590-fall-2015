@@ -12,9 +12,7 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
-* [10/9/2015] A student asked me:
-
-> Could you just let me know what would be the last working day for CS590 for this quarter?
+* [10/9/2015] A student asked: "Could you just let me know what would be the last working day for CS590 for this quarter?"
 
 According to the [CSULA final schedule](http://web.calstatela.edu/classschedule/pdf/fall_book/27FinalexamscheduleFall2015.pdf):
 
@@ -22,9 +20,9 @@ According to the [CSULA final schedule](http://web.calstatela.edu/classschedule/
   * Friday Class: 4:30 - 7:00 PM December 11, 2015
   * Saturday Class: 8:00 - 10:30 AM December 12, 2015
 
-That being said, we will attempt arrange the final presentation so that all three sections can do presentation together at a common location and time.  Logistics to follow.  To be on the safe side, I recommend that students do not book their trips earlier than December 13, 2015.
+That being said, we will try to arrange the final presentation so that all three sections can do presentation together at a common location and time.  Logistics to follow.  To be on the safe side, I recommend that students do not make travel plans earlier than December 13, 2015.
 
-* [10/9/2015] A number of students asked what do they need to review to be prepared for the quiz.  Students need do the reading and watch the videos listed in the `Reading Assignment` section.  As for the programming part, the quiz will include simple code snippets. You will not be asked to write a full application during the quiz (this is not feasible nor practical).
+* [10/9/2015] A number of students asked what do they need to review to be prepared for the quiz.  Students need do the reading assignments and watch the videos listed in the `Reading Assignment` section.  As for the programming part, the quiz will include simple code snippets. You will not be asked to write a full application during the quiz (this is not feasible nor practical).
 
 * [10/8/2015] A student asked me this question:
 
