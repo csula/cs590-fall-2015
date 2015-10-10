@@ -12,6 +12,12 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+* [10/10/2015] A student asked about team composition:
+
+> Is it ok to do the project by your own? Since I don't have any friend who take this course, that means I want to do the project by my own. 
+
+I don't have a problem with students going solo.
+
 * [10/9/2015] A student asked: "Could you just let me know what would be the last working day for CS590 for this quarter?"
 
 According to the [CSULA final schedule](http://web.calstatela.edu/classschedule/pdf/fall_book/27FinalexamscheduleFall2015.pdf):
