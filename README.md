@@ -9,6 +9,7 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 * Lecture 1: [Syllabus](Syllabus.md), [Introduction](documents/notes/01_introduction.md) and [Functional Programming Primer](documents/notes/02_functional-primer.md).
 * Lecture 2: [Classic Software Architecture](documents/notes/03_classic-software-architecture.md)
 * Lecture 3: [Design Patterns](documents/notes/04_design-patterns.md)
+* Lecture 4: [Framework for Building a Complex System](documents/notes/05_framework-complex-systems.md)
 
 ## Announcements
 
