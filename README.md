@@ -12,6 +12,14 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+* [10/15/2015] No quiz this Friday.  We will, however, do a complete quiz application from scratch in class.  The goal here is to show students how to do a complete project from a software architecture perspective.  That being said, students should come to class with the following tools installed and ready to go:
+
+  - MongoDB server
+  - leiningen
+  - Light Table or an IDE of their choosing
+
+Please note that this is a very tight and compressed class so we will not have time to trouble shoot your laptop or computer problems.  To be most effective and maximize our time together, please try to get the development environment working before class.
+
 * [10/10/2015] A student asked about team composition:
 
 > Is it ok to do the project by your own? Since I don't have any friend who take this course, that means I want to do the project by my own. 
