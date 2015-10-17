@@ -20,6 +20,28 @@
 
 # Build a Complex Web Application from Scratch
 
+We will utilize the [duct](https://github.com/weavejester/duct) framework for building web application.  To get started, you will need to create a project template:
+
+```bash
+lein new duct gradesheet +site +example
+```
+
+Next add the following dependencies to your `project.clj` file.
+```clojure
+[com.novemberain/monger "2.1.0"]
+[selmer "0.9.2"]
+```
+
+Let us now modify the routes found in `src/gradesheet/example.clj`
+
+```clojure
+(GET "/quiz/:number" [number] (show-quiz number) )
+```
+
+This means that you will need to create a `show-quiz` function and that function should take a number as an argument.
+
+To render a webpage, you will need to create:
+
 ```clojure
 (ns lms.utils.layout
   (:require [selmer.parser :as parser]
@@ -44,18 +66,25 @@
     (RenderableTemplate. template-path params)))
 ```
 
-## Design Phase
+The models code for storing database example for a counter is as followed:
 
-### Functional requirements
+```clojure
+(ns gradesheet.models.counter
+  (:require [monger.core :as mg]
+            [monger.collection :as mc]
+            [monger.result :refer [ok? has-error?]]))
 
-### Non-functional (quality attributes)
+(def conn (mg/connect))
+(def db (mg/get-db conn "gradesheet")) ;; database name
+(def document "counter") ;; document
 
-## Analysis Phase
+(defn write-counter
+  [number]
+  (mc/insert-and-return db document {:counter number}))
 
-### Tradeoffs
+(defn read-counter
+  [] 
+  (mc/find-maps db document { } ))
+```
 
-### Risk
-
-### Architecture Drivers
-
- 
+Putting everything together, you should have a simple web application.
