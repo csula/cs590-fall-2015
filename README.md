@@ -13,6 +13,54 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+* [10/20/2015] Here are the solutions the programming part of the quiz:
+
+```clojure
+;;; finding the RMS
+(defn sqrt [x] (Math/sqrt x))
+(defn sq [x] (* x x))
+
+(defn rms
+  [X]
+  (let [n (count X)
+        one-over-n (/ 1 n)]
+     (sqrt (* one-over-n (reduce + (map sq X))))))
+
+(def X (range 3 1023))
+(rms X)
+```
+
+```clojure
+;;; finding the standard deviation
+(defn sqrt [x] (Math/sqrt x))
+(defn sq [x] (* x x))
+(defn diff [x] (- x mu))
+(defn avg [X] (/ (reduce + X) (count X)))
+(defn std
+  [mu X]
+  (let [n (count X)
+        one-over-N (/ 1 n)
+        Y (map #(- %1 mu) X)
+        YS (map sq Y)]
+    (sqrt (* one-over-N (reduce + YS)))))
+
+(def X (range 1 1025 2))
+(std (avg X) X)
+```
+
+```clojure
+;;; finding the minimum distance
+(defn sqrt [x] (Math/sqrt x))
+(defn sq [x] (* x x))
+(defn dist 
+  [p] 
+  (sqrt (reduce + (map sq [(:x p) (:y p) (:z p)]))))
+
+(reduce 
+ min (map dist [{:x 1 :y 2 :z 3} {:x 2 :y 4 :z -2} {:x 1 :y -1 :z 0}]))
+```
+
+
 * [10/20/2015] Here is an excellent article by [Ed Featherson](https://dzone.com/users/2566190/ed-featherston.html) from [DZone](http://dzone.com) ["Why Do I Need an Architect?"](https://dzone.com/articles/why-do-i-need-an-architect-redux-1).  The main point is:
 
 > From the 10,000 foot level, the architect has ultimate ownership of the technology vision, definition, leadership, and responsibility for the successful delivery of the system.
