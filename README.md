@@ -13,6 +13,12 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+* [10/20/2015] Here is an excellent article by [Ed Featherson](https://dzone.com/users/2566190/ed-featherston.html) from [DZone](http://dzone.com) ["Why Do I Need an Architect?"](https://dzone.com/articles/why-do-i-need-an-architect-redux-1).  The main point is:
+
+> From the 10,000 foot level, the architect has ultimate ownership of the technology vision, definition, leadership, and responsibility for the successful delivery of the system.
+
+When you do your first homework assignment, try to focus on the big picture.  In otherwords, try to think as an architect.
+
 * [10/15/2015] No quiz this week.  We will, however, do a complete application from scratch in class.  The goal here is to demonstrate to students a complete project from a software architecture perspective. 
 
 Please note that this is a very tight and compressed class so we will not have time to troubleshoot computer problems.  To be most effective and to maximize our time together, please try to get the development environment working before class.  In summary, students should come to class with the following installed and ready to go:
