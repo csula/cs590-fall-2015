@@ -13,6 +13,8 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+* [10/21/2015] I have updated [Lecture 4 Notes](documents/notes/05_framework-complex-systems.md) with a detailed tutorial on how to get a web application running.  Students are recommended to go through the process before attempting homework 1.
+
 * [10/20/2015] Here are the solutions the programming part of the quiz:
 
 ```clojure
