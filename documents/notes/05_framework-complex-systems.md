@@ -133,7 +133,7 @@ To build a view, create the `resources/endpoint/example/quiz.html`
 </html>
 ```
 
-Note that `{{ title }}` and `{{ q.number }}` are injected via a map from the controller (see below).  The `{% csrf-field %}` is the antiforgery token wev've discussed in class and is used to prevent forgery `POST` access.
+Note that `{{ title }}` and `{{ q.number }}` are injected via a map from the controller (see below).  The `{% csrf-field %}` is the antiforgery token we've discussed in class and is used to prevent forgery `POST` access.
 
 ## Build the `Controller`
 
