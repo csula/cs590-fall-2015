@@ -13,7 +13,7 @@
 
 ## Reading Assignment
 
-* Schott, George. [CS164 Lecture 3 Design Patterns](https://youtu.be/mym5m-GKG0Q).  This is an *excellent* talk on design patterns.  We will watch part of this video in class.
+* Schott, George. [CS164 Lecture 3 Design Patterns](https://youtu.be/mym5m-GKG0Q).  This is an *excellent* talk on design patterns.  We will watch part of this video in class.  This video is not required for the quiz!
 * Banas, Derek. [Design Patterns in Java](http://www.newthinktank.com/videos/design-patterns-tutorial/).
   * We will watch the introduction video and the students will select one of the specific design pattern videos.
 * Sierra, Stuart. [Components Just Enough Structure](https://www.youtube.com/watch?v=13cmHf_kt-Q).  This talks about a common pattern: **Components** (or stateful objects) structure.  This video is optional and students will not be quizzed on the video.
