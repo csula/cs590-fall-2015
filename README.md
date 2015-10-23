@@ -14,11 +14,9 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
-* [10/22/2015] A few students have asked if there is going to be a quiz this week.  Yes! there shall be one.  The quiz will be on:
+* [10/22/2015] A few students have asked if there is going to be a quiz this week.  Yes! there shall be one.  In fact, this is to note that we will have a quiz every week for the rest of the quarter. This week's quiz will be on:
   * Design Patterns and Architecture Patterns
   * Architecture Framework (to prepare for this do the exercise described in lab 4)
-
-In fact, this is to note that we will have a quiz every week for the rest of the quarter.
 
 * [10/21/2015] A number of students have asked my about homework 1. Your task is to write a registration system.  This homework is due 10/30, 10/31, 11/2 (depending which class you're attending). You are should get started right away.
 
