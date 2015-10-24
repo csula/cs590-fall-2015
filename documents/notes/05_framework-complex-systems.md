@@ -141,7 +141,7 @@ Let us build the controller by modifying the routes found in `src/gradesheet/exa
 
 ```clojure
 (GET "/quiz/:number" [number] (show-quiz number))
-(POST "/grade-quiz/:number" [&form] (grade-quiz form))
+(POST "/grade-quiz" [& form] (grade-quiz form))
 ```
 
 This means that you will need to create the `show-quiz` function:
