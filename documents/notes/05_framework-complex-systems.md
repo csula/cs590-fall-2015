@@ -109,7 +109,7 @@ Next build the model for reading and writing quiz with the mongo database.  Crea
 
 ## Build the `View`
 
-To build a view, create the `resources/endpoint/example/quiz.html`
+To build a view, create the `resources/gradequiz/endpoint/example/quiz.html`
 
 ```html
 <!DOCTYPE html>
