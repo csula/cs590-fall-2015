@@ -137,7 +137,7 @@ Note that `{{ title }}` and `{{ q.number }}` are injected via a map from the con
 
 ## Build the `Controller`
 
-Let us build the controller by modifying the routes found in `src/gradesheet/example.clj`. Add the following to the routes:
+Let us build the controller by modifying the routes found in `src/gradesheet/endpoint/example.clj`. Add the following to the routes:
 
 ```clojure
 (GET "/quiz/:number" [number] (show-quiz number))
