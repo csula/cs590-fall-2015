@@ -15,7 +15,17 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
-* [10/22/2015] A few students have asked if there is going to be a quiz this week.  Yes! there shall be one.  In fact, this is to note that we will have a quiz every week for the rest of the quarter. This week's quiz will be on:
+* [10/23/2015] Here are some mongo commands that might be helpful.
+
+```
+> show databases  # list all databases 
+> use database gradesheet # use a database named gradesheet (make it active)
+> show tables # show all tables (documents) in the active database
+> db.quiz.find().pretty() # find all documents in the table quiz
+> db.runCommand ({ dropDatabase : 1 }) # destroy the active database
+```
+
+* [10/22/2015] A few students asked if there is going to be a quiz this week.  Yes! there shall be one.  In fact, this is to note that we will have a quiz every week for the rest of the quarter. This week's quiz will be on:
   * Design Patterns and Architecture Patterns
   * Architecture Framework (to prepare for this do the exercise described in lab 4)
 
