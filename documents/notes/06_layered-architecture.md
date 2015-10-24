@@ -28,7 +28,7 @@
 ### Key Concepts
 
 * Separation of concerns
-* Each layered is self-contained
+* Each layer is self-contained
 * Cannot skip a layer
 * Layers are (should be interchangeable)
 * Closed vs. Open layer
