@@ -52,26 +52,50 @@ Cheating on assignments and exams will not be tolerated. All parties involved wi
 
 ## Course Schedule
 
-The schedule below is tentative and is subject to change.
+* Lecture 1: [9/25,9/26,9/28] 
+  * [Introduction](documents/notes/01_introduction.md)
+  * [Functional Programming Primer](documents/notes/02_functional-primer.md)
 
-* Lecture 1: [9/25,9/26,9/28] [Introduction](documents/notes/01_introduction.md); [Functional Programming Primer](documents/notes/02_functional-primer.md)
+* Lecture 2: [10/2,10/3,10/5] 
+  * [Classic Software Architecture](documents/notes/03_classic-software-architecture.md)
 
-* Lecture 2: [10/2,10/3,10/5] [Classic Software Architecture](documents/notes/03_classic-software-architecture.md)
+* Lecture 3: [10/9,10/10,10/12] 
+  * [Design Patterns & Software Architecture Patterns](documents/notes/04_design-patterns.md)
+  * Quiz 1
 
-* Lecture 3: [10/9,10/10,10/12] [Design Patterns & Software Architecture Patterns](documents/notes/04_design-patterns.md)
+* Lecture 4: [10/16,10/17,10/19] 
+  * [Framework for Building Complex Software Systems](documents/notes/05_framework-complex-systems.md) 
 
-* Lecture 4: [10/16,10/17,10/19] [Framework for Building Complex Software Systems](documents/notes/05_framework-complex-systems.md) 
+* Lecture 5: [10/23,10/24,10/26] 
+  * [Software Arhictecture Pattern 1: Layered Architecture](documents/notes/06_layered-architecture.md) 
+  * Quiz 2
 
-* Lecture 5: [10/23,10/24,10/26] [Software Arhictecture Pattern 1: Layered Architecture](documents/notes/06_layered-architecture.md)
+* Lecture 6: [10/30,10/31,11/2] 
+  * [Software Arhictecture Pattern 2: Event-Driven](documents/notes/07_event-driven.md) 
+  * Quiz 3
+  * Homework 1
 
-* Lecture 6: [10/30,10/31,11/2] [Software Arhictecture Pattern 2: Event-Driven](documents/notes/07_event-driven.md)
+* Lecture 7: [11/6,11/7,11/9] 
+  * [Software Arhictecture Pattern 3: Microkernel](documents/notes/08_microkernel.md)
+  * Quiz 4
+  * Homework 2
 
-* Lecture 7: [11/6,11/7,11/9] [Software Arhictecture Pattern 3: Microkernel](documents/notes/08_microkernel.md)
+* Lecture 8: [11/13,11/14,11/16] 
+  * [Software Arhictecture Pattern 4: Microservices](documents/notes/09_microservices.md) 
+  * Quiz 5
+  * Homework 3
 
-* Lecture 8: [11/13,11/14,11/16] [Software Arhictecture Pattern 4: Microservices](documents/notes/09_microservices.md)
+* Lecture 9: [11/20,11/21,11/23] 
+  * [Analysis of Popular Frameworks and Systems](documents/notes/10_analysis.md)
+  * Quiz 6
 
-* Lecture 9: [11/20,11/21,11/23] [Analysis of Popular Frameworks and Systems](documents/notes/10_analysis.md)
+* Lecture 10: [11/27,11/28,11/30]
+  * [Project Discussion](documents/final-project/project.md)
+  * Quiz 7
+  * Homeowork 4
 
-* Lecture 10: [11/27,11/28,11/30] [Project Discussion](documents/final-project/project.md)
+* Final Project: [12/12/2015] 
+  * Project demonstration and presentation; Time and Location TBD
+  * Quiz 8
 
-* Final Project: [TBD] Project demonstration and presentation
+
