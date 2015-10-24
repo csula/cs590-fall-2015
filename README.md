@@ -15,7 +15,7 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
-* [10/24/2015] The [course syllabus](Syllabus.md) has been updated.  The schedule is firm and final.  Or as final as final can be...
+* [10/24/2015] The [course syllabus](Syllabus.md) has been updated.  The schedule is firm and final. 
 
 * [10/24/2015] I am going to be in the library today (Saturday) from 12:00 to 5:00 PM.  Please feel free to stop by if you need help.  Note also in doing a rough estimation on the time required for first homework assignment, I suspect that students will be spending somewhere between 15 to 20 hours to get the assignment working correctly.  Please refer to the [Homework 1](documents/homeworks/homework1.md) writeup for grading rubric. 
 
