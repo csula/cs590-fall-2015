@@ -58,7 +58,7 @@ Next add the following dependencies to your `project.clj` file.
 
 ## Build Infrastructure
 
-Create a the file `src/gradesheet/utils/layout.clj`. The purpose of this file is so that you can call inject logic into static HTML pages.
+Create the file `src/gradesheet/utils/layout.clj`. The purpose of this file is so that you can call inject logic into static HTML pages.
 
 ```clojure
 (ns gradesheet.utils.layout
@@ -109,7 +109,7 @@ Next build the model for reading and writing quiz with the mongo database.  Crea
 
 ## Build the `View`
 
-To build a view, create the `resources/gradequiz/endpoint/example/quiz.html`
+To build a view, create the file `resources/gradesheet/endpoint/example/quiz.html`
 
 ```html
 <!DOCTYPE html>
