@@ -12,6 +12,7 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 * Lecture 4: [Framework for Building a Complex System](documents/notes/05_framework-complex-systems.md)
 * Assignment: [Homework 1](documents/homeworks/homework1.md)
 * Lecture 5: [Layered Architecture Pattern](documents/notes/06_layered-architecture.md)
+* Lecture 6: [Event Driven Pattern](documents/notes/07_event-driven.md)
 
 ## Announcements
 
