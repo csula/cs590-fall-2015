@@ -15,6 +15,8 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+* [10/29/2015] There is a free book that might help some of the people with clojure programming. [Functional Programming for the Object-Oriented Program](http://samples.leanpub.com/fp-oo-sample.pdf)
+
 * [10/25/2015] A student asked where I purchased the clojure tutorial.  Here is the link to [Learning Clojure](http://shop.oreilly.com/product/0636920040194.do) with Adam Bard.
 
 * [10/24/2015] The [course syllabus](Syllabus.md) has been updated.  The schedule is firm and final. 
