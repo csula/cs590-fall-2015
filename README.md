@@ -16,7 +16,7 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
-* [10/30/2015] I will be at the library Saturday from 2 to 5. If you need help or want to chat, stop by and see me.
+* [10/30/2015] I will be at the library Saturday from ~~2 to 5~~ 3 to 6. If you need help or want to chat, stop by and see me.
 
 * [10/29/2015] There is a free book that might help some of the people with clojure programming. [Functional Programming for the Object-Oriented Program](http://samples.leanpub.com/fp-oo-sample.pdf)
 
