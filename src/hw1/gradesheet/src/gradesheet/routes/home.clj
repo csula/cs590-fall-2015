@@ -2,33 +2,31 @@
   (:require [gradesheet.layout :as layout]
             [compojure.core :refer [defroutes GET]]
             [ring.util.http-response :refer [ok]]
+            [gradesheet.models.user :as user]
             [clojure.java.io :as io]))
-
-(defn home-page []
-  (layout/render
-    "home.html" {:docs (-> "docs/docs.md" io/resource slurp)}))
 
 (defn show-page [page]
   (layout/render page))
 
-(defn about-page []
-  (layout/render "about.html"))
-
-(defn register-page []
-  (layout/render "register.html"))
-
-(defn login-page []
-  (layout/render "login.html"))
-
-(defn welcome-page []
-  (layout/render "welcome.html"))
+(defn register-user
+  "register user with the system"
+  [form]
+  ;; get data from form
+  (let [username (:username form)
+        password (:passsword form)
+        s1 {:username username}
+        s2 {:username username :password password}]
+    ;; check to see if user exists
+    (if (empty? (user/get-user s1))
+      (do
+        (user/save-user s2)
+        (show-page "login.html"))
+      (show-page "error.html"))))
 
 (defroutes home-routes
-  (GET "/" [] (welcome-page))
-  (GET "/register" [] (register-page))
-  (GET "/login" [] (login-page))
-  (GET "/about" [] (about-page))
+  (GET "/" [] (show-page "welcome.html"))
+  (GET "/register" [] (show-page "register.html"))
+  (GET "/login" [] (show-page "login.html"))
+  (GET "/about" [] (show-page "about.html"))
   (POST "/register" [& form] (register-user form))
-  (POST "/login" [& form] (login form))
-  )
-
+  (POST "/login" [& form] (login form)))

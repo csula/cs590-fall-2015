@@ -14,4 +14,3 @@
 (defn get-user
   [search-criteria]
   (mc/find-maps db document search-criteria))
-
