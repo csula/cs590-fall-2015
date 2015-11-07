@@ -1,0 +1,1 @@
+web: java $JVM_OPTS -cp target/gradesheet.jar clojure.main -m gradesheet.core

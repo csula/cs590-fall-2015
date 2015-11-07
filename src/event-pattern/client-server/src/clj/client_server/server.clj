@@ -11,9 +11,18 @@
     (catch Throwable t
       (str "ERROR: " t))))
 
+(defn check-answer [request]
+  (try
+    (let [expr (read-string (slurp (:body request)))]
+      (pr-str "text body here..."))
+    (catch Throwable t
+      (str "ERROR: " t))))
+
 (compojure/defroutes app
-  (compojure/POST "/eval" request (eval-clojure request))
   (compojure/GET "/" request (response/resource-response "public/index.html"))
+  (compojure/GET "/quiz" request (response/resource-response "public/quiz.html"))
+  (compojure/POST "/eval" request (eval-clojure request))
+  (compojure/POST "/check-answer" request (check-answer request))
   (route/resources "/"))
 
 (defn -main []
