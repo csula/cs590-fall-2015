@@ -1,6 +1,6 @@
 (ns gradesheet.routes.home
   (:require [gradesheet.layout :as layout]
-            [compojure.core :refer [defroutes GET]]
+            [compojure.core :refer [defroutes GET POST]]
             [ring.util.http-response :refer [ok]]
             [gradesheet.models.user :as user]
             [clojure.java.io :as io]))
@@ -21,7 +21,19 @@
       (do
         (user/save-user s2)
         (show-page "login.html"))
-      (show-page "error.html"))))
+      (layout/render "error.html" {:message "user already exist"}))))
+
+(defn login
+  "login user into the system"
+  [form]
+  ;; get data from form
+  (let [username (:username form)
+        password (:passsword form)
+        s2 {:username username :password password}]
+    ;; check to see if username and password found in database
+    (if (empty? (user/get-user s2))
+      (layout/render "error.html" {:message "incorrect credential"})
+      (show-page "auth-home.html"))))
 
 (defroutes home-routes
   (GET "/" [] (show-page "welcome.html"))
