@@ -1,0 +1,1 @@
+web: java $JVM_OPTS -cp target/hw1.jar clojure.main -m hw1.core
