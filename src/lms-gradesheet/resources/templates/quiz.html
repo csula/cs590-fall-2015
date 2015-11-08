@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>{{title}}</h1>
+<hr/>
+<form method="post" action="/quiz/submit">
+    {% csrf-field %}
+    <ol>
+        {% for question in p-questions %}
+        <li>{{ question.q }} <br/> <br/>
+            {% ifequal question.t "text" %}
+            <input type=text name="{{question.l}}" />
+            {% else %}
+            <textarea rows="6" cols="60" name="{{question.l}}">write your *brief* answer here</textarea>
+            {% endifequal %}
+            <br/><br/></li>
+        {% endfor %}
+        {% for question in questions %}
+        <li>{{ question.q }} <br/>
+            <ul>
+                {% for x in question.c }}
+                <input type=radio name="{{question.l}}" value="{{x}}"> {{x}} <br/>
+                {% endfor %}
+            </ul> </li> <br/>
+        {% endfor %}
+    </ol>
+    <input type=checkbox name=policy-flag>&nbsp;I understand the course's academic policy and I did not provide nor received unauthorized help on this exam. <br/><br/>
+    Name: &nbsp; <input type=text name=name value='' />&nbsp;
+    CIN: &nbsp; <input type=text name=cin value='' />&nbsp;
+    <input type=submit value=Submit> <br/>
+    <input type=hidden name=exam-number value="{{exam-number}}" />
+    <input type=hidden name=exam-version value="{{exam-version}}" />
+</form>
+<hr/>
+<p>duct LMS version: 0.0.3 </p>
+
+{% endblock %}

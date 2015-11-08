@@ -1,0 +1,26 @@
+{
+	"title": "Example Quiz",
+	"exam-version": "0.1",
+	"exam-number": "1",
+	"program": [{
+		"q": "Write a clojure function that calculates the minimum value of a collection.",
+		"l": "p1",
+		"t": "textarea"
+	}],
+	"questions": [{
+		"q": "What is 1 + 1",
+		"c": ["2", "3", "4", "5"],
+		"a": "2",
+		"l": "q1"
+	}, {
+		"q": "What is the letter between the letters \"a\" and \"c\"?",
+		"c": ["a", "b", "c", "d"],
+		"a": "b",
+		"l": "q2"
+	}, {
+		"q": "How do you determine if empty?",
+		"c": ["empty?", "exist?", "map", "reduce"],
+		"a": "empty?",
+		"l": "q3"
+	}]
+}
