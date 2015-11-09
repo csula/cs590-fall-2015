@@ -16,6 +16,8 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+* [11/8/2015] [Homework 2](documents/homeworks/homework2.md) has been posted.
+
 * [11/2/2015] I will be in the library on Wednesday from 5 to 6 PM.  If you have not completed the homework assignment.  This is your **last** opportunity to demo it to me.  
 
 * [10/30/2015] I will be at the library Saturday from ~~2 to 5~~ 3 to 6. If you need help or want to chat, stop by and see me.
