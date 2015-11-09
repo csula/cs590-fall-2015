@@ -71,12 +71,12 @@ Cheating on assignments and exams will not be tolerated. All parties involved wi
   * Quiz 2
 
 * Lecture 6: [10/30,10/31,11/2] 
-  * [Software Arhictecture Pattern 2: Event-Driven](documents/notes/07_event-driven.md) 
+  * [Software Arhictecture Pattern 2: Event-Driven (Part 1)](documents/notes/07_event-driven.md) 
   * Quiz 3
   * Homework 1
 
 * Lecture 7: [11/6,11/7,11/9] 
-  * [Software Arhictecture Pattern 3: Microkernel](documents/notes/08_microkernel.md)
+  * [Software Arhictecture Pattern 2: Event-Driven (Part 2)](documents/notes/07_event-driven.md) 
   * Quiz 4
   * Homework 2
 
@@ -86,6 +86,7 @@ Cheating on assignments and exams will not be tolerated. All parties involved wi
   * Homework 3
 
 * Lecture 9: [11/20,11/21,11/23] 
+  * [Software Arhictecture Pattern 3: Microkernel](documents/notes/08_microkernel.md)
   * [Analysis of Popular Frameworks and Systems](documents/notes/10_analysis.md)
   * Quiz 6
 
