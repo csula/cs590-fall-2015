@@ -16,6 +16,10 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+* [11/10/2015] One question was asked, how detail should our architecture diagram be?  My response to that is as detail as you need it.  If you want to get a feel for what yours should look like.  Consider this [event-architecture-sketch.png](documents/notes/images/event-architecture-sketch.png) example.
+
+Note that this diagram captures the "essence" of the components and what each components are supposed to do and how the interact.
+
 * [11/10/2015] Folks, I was looking at the [gitter cs590 membership](https://gitter.im/csula/cs590-fall-2015) and I noticed that there are more students officially registered for the three sections than the number of students participating in gitter.
 
 ![gitter cs590 membership](documents/notes/images/gitter.png)

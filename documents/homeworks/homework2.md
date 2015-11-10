@@ -10,7 +10,7 @@ There are many ways to perform validation on the username.  The most basic appro
 
 The requirements on the password strength are:
 
-1. Minimum 8 character
+1. Minimum 8 characters
 2. One upper case
 3. One number
 4. One symbol
