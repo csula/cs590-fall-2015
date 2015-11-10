@@ -16,6 +16,12 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+* [11/10/2015] Folks, I was looking at the gitter cs590 membership.  I noticed that there are more than students officially registered for the three sections of CS590 than what is currently shown.
+
+![gitter cs590 membership](documents/notes/images/gitter.png)
+
+I hope that you participate in the discussion and make it a fun and enjoyable learning experience.
+
 * [11/8/2015] [Homework 2](documents/homeworks/homework2.md) has been posted.
 
 * [11/2/2015] I will be in the library on Wednesday from 5 to 6 PM.  If you have not completed the homework assignment.  This is your **last** opportunity to demo it to me.  
@@ -94,7 +100,6 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 (reduce 
  min (map dist [{:x 1 :y 2 :z 3} {:x 2 :y 4 :z -2} {:x 1 :y -1 :z 0}]))
 ```
-
 
 * [10/20/2015] Here is an excellent article by [Ed Featherson](https://dzone.com/users/2566190/ed-featherston.html) from [DZone](http://dzone.com) ["Why Do I Need an Architect?"](https://dzone.com/articles/why-do-i-need-an-architect-redux-1).  The main point is:
 
