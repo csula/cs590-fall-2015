@@ -4,6 +4,24 @@
             [ring.util.response :as response]
             [ring.adapter.jetty :as jetty]))
 
+(def upper (re-pattern "[A-Z]+"))
+(def number (re-pattern "[0-9]+"))
+(def special (re-pattern "[\"'!@#$%^&*()?]+"))
+
+(defn strength? [password]
+  (not (nil? (and (re-find upper password)
+                  (re-find number password)
+                  (re-find special password)))))
+
+(defn length? [password]
+  (> (count password) 8))
+
+(defn valid-password? [password]
+  (and (strength? password) (length? password)))
+
+(valid-password? "Foobar?8Foobar9!")
+
+
 (defn eval-clojure [request]
   (try
     (let [expr (read-string (slurp (:body request)))]
