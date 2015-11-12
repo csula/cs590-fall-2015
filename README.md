@@ -17,6 +17,9 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 ## Announcements
 
 #### 11/12/2015
+Solution for ungraded exercise has been committed to the [event-pattern](src/event-pattern/) folder.  Enjoy!
+
+#### 11/12/2015
 
 A number of you are working hard on the homework.  I've decided to significantly reduce your workload by not having a quiz this week.  Please focus on the homework and not worry about the quiz.
 
