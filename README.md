@@ -16,6 +16,10 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+#### 11/12/2015
+
+A number of you are working hard on the homework.  I've decided to significantly reduce your workload by not having a quiz this week.  Please focus on the homework and not worry about the quiz.
+
 #### 11/11/2015
 For the password checking, consider the following code:
 

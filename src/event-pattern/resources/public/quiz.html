@@ -1,17 +1,16 @@
 <html>
   <head>
-    <title>Quiz 1</title>
+    <title>Simple Math Quiz</title>
   </head>
   <body>
-    <h1>Quiz Evaluation</h1>
+    <h1>Simple Math Quiz</h1>
     <form id="eval-form">
-      <p><label for="quiz-expr">
-          What is 3 x 3?
-      </label></p>
+      <p>What is the value of <span id="quiz-question">__</scan>^2?
+      <input id="gen-number-button" type="button" value="gen-number" /></p>
       <p><input id="quiz-answer" name="quiz-answer" type="text" size="10" />
-      <input id="quiz-button" type="button" value="check" /></p>
+      <input id="answer-button" type="button" value="check" /></p>
     </form>
-    <p>The result:</p>
+    <p>Your result:</p>
     <pre id="quiz-result"></pre>
     <script src="/js/client.js" language="javascript"></script>
     <script type="text/javascript" language="javascript">
