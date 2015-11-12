@@ -5,13 +5,12 @@
   <body>
     <h1>Simple Math Quiz</h1>
     <form id="eval-form">
-      <p>What is the value of <span id="quiz-question">__</scan>^2?
-      <input id="gen-number-button" type="button" value="gen-number" /></p>
+      <p>What is the value of (<span id="quiz-integer-var">__</span>)^2?
+      <input id="button-gen-integer" type="button" value="randomize" /></p>
       <p><input id="quiz-answer" name="quiz-answer" type="text" size="10" />
-      <input id="answer-button" type="button" value="check" /></p>
+      <input id="button-answer" type="button" value="check" /></p>
     </form>
-    <p>Your result:</p>
-    <pre id="quiz-result"></pre>
+    <p>Your result: <span id="quiz-result"></span></p>
     <script src="/js/client.js" language="javascript"></script>
     <script type="text/javascript" language="javascript">
       client_server.quiz.main()

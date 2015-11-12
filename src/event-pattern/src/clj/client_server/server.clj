@@ -19,8 +19,8 @@
 (defn valid-password? [password]
   (and (strength? password) (length? password)))
 
-(valid-password? "Foobar?8Foobar9!")
-
+(defn serialize [m] (str m))
+(defn de-serialize [s] (read-string s))
 
 (defn eval-clojure [request]
   (try
@@ -31,8 +31,12 @@
 
 (defn check-answer [request]
   (try
-    (let [expr (read-string (slurp (:body request)))]
-      (pr-str "text body here..."))
+    (let [expr (read-string (slurp (:body request)))
+          n (Integer. (:number expr))
+          a (Integer. (:answer expr))]
+      (if (= a (* n n))
+        (pr-str "correct")
+        (pr-str "incorrect")))
     (catch Throwable t
       (str "ERROR: " t))))
 
@@ -46,3 +50,6 @@
 (defn -main []
   (prn "View the example at http://localhost:4000/")
   (jetty/run-jetty app {:join? true :port 4000}))
+
+(valid-password? "Foobar?8Foobar9!")
+(de-serialize (serialize {:answer 1 :number 2}))
