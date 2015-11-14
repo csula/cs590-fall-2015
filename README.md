@@ -13,8 +13,15 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 * Assignment: [Homework 1](documents/homeworks/homework1.md)
 * Lecture 5: [Layered Architecture Pattern](documents/notes/06_layered-architecture.md)
 * Lecture 6: [Event Driven Pattern](documents/notes/07_event-driven.md)
+* Lecture 7: Event-Driven Pattern revisit
+* Lecture 8: [Microservices](documents/notes/09_microservices.md)
+
 
 ## Announcements
+
+#### 11/14/2015
+
+Many thanks to [Akshay S.](https://github.com/akshays04) for the tutorial on how to integrate [Google Captcha Tutorial](documents/notes/pdfs/google-captcha.pdf).
 
 #### 11/12/2015
 Solution for ungraded exercise has been committed to the [event-pattern](src/event-pattern/) folder.  Enjoy!
