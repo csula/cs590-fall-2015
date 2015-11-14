@@ -66,7 +66,7 @@ There are many microservices topologies.  These range from complex RMI to simpli
 
 #### Centralized Messaging
 
-![Centralized messaging topology](images/centralized-messaging-topology.png
+![Centralized messaging topology](images/centralized-messaging-topology.png)
 
 * Instead of using REST for remote access, this topology uses a lightweight centralized message broker
 * The lightweight message broker found in this topology does not perform any orchestration, transfor‐ mation, or complex routing; rather, it is just a lightweight transport to access remote service components
