@@ -13,24 +13,30 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 * Assignment: [Homework 1](documents/homeworks/homework1.md)
 * Lecture 5: [Layered Architecture Pattern](documents/notes/06_layered-architecture.md)
 * Lecture 6: [Event Driven Pattern](documents/notes/07_event-driven.md)
-* Lecture 7: Event-Driven Pattern revisit
+* Lecture 7: [Event Driven Pattern revisit]documents/notes/08_clojurescript-event-driven.md)
+* Assignment: [Homework 2](documents/homeworks/homework2.md)
 * Lecture 8: [Microservices](documents/notes/09_microservices.md)
+* Assignment: [Homework 3](documents/homeworks/homework3.md)
+* Assignment: [Homework 4](documents/homeworks/homework4.md)
+* Assignment: [Project](documents/final-project/project.md)
 
 
 ## Announcements
 
-#### 11/14/2015
+**11/14/2015**
 
 Many thanks to [Akshay S.](https://github.com/akshays04) for the tutorial on how to integrate [Google Captcha Tutorial](documents/notes/pdfs/google-captcha.pdf).
 
-#### 11/12/2015
+**11/12/2015**
+
 Solution for ungraded exercise has been committed to the [event-pattern](src/event-pattern/) folder.  Enjoy!
 
-#### 11/12/2015
+**11/12/2015**
 
 A number of you are working hard on the homework.  I've decided to significantly reduce your workload by not having a quiz this week.  Please focus on the homework and not worry about the quiz.
 
-#### 11/11/2015
+**11/11/2015**
+
 For the password checking, consider the following code:
 
 ```clojure
@@ -52,40 +58,50 @@ For the password checking, consider the following code:
 
 Our approach here is to construct the checks little by little.
 
-#### 11/10/2015
+**11/10/2015**
+
 One question was asked, how detail should our architecture diagram be?  My response to that is as detail as you need it.  If you want to get a feel for what yours should look like.  Consider this [event-architecture-sketch.png](documents/notes/images/event-architecture-sketch.png) example.
 
 Note that this diagram captures the "essence" of the components and what each components are supposed to do and how the interact.
 
-#### 11/10/2015
-Folks, I was looking at the [gitter cs590 membership](https://gitter.im/csula/cs590-fall-2015) and I noticed that there are more students officially registered for the three sections than the number of students participating in gitter.
+**11/10/2015**
+
+Folks, I was looking at the [gitter cs590 membership](https://gitter.im/csula/cs590-fall-2015**) and I noticed that there are more students officially registered for the three sections than the number of students participating in gitter.
 
 ![gitter cs590 membership](documents/notes/images/gitter.png)
 
 I hope that you participate in the discussion and make it a fun and enjoyable learning experience.  
 
-#### 11/8/2015
+**11/8/2015**
+
 [Homework 2](documents/homeworks/homework2.md) has been posted.
 
-#### 11/2/2015
+**11/2/2015**
+
 I will be in the library on Wednesday from 5 to 6 PM.  If you have not completed the homework assignment.  This is your **last** opportunity to demo it to me.  
 
-#### 10/30/2015
+**10/30/2015**
+
 I will be at the library Saturday from ~~2 to 5~~ 3 to 6. If you need help or want to chat, stop by and see me.
 
-#### 10/29/2015
+**10/29/2015**
+
 There is a free book that might help some of the people with clojure programming. [Functional Programming for the Object-Oriented Program](http://samples.leanpub.com/fp-oo-sample.pdf)
 
-#### 10/25/2015
+**10/25/2015**
+
 A student asked where I purchased the clojure tutorial.  Here is the link to [Learning Clojure](http://shop.oreilly.com/product/0636920040194.do) with Adam Bard.
 
-#### 10/24/2015
+**10/24/2015**
+
 The [course syllabus](Syllabus.md) has been updated.  The schedule is firm and final. 
 
-#### 10/24/2015
+**10/24/2015**
+
 I am going to be in the library today (Saturday) from 12:00 to 5:00 PM.  Please feel free to stop by if you need help.  Note also in doing a rough estimation on the time required for first homework assignment, I suspect that students will be spending somewhere between 15 to 20 hours to get the assignment working correctly.  Please refer to the [Homework 1](documents/homeworks/homework1.md) writeup for grading rubric. 
 
-#### 10/23/2015
+**10/23/2015**
+
 Here are some mongo commands that might be helpful.
 ```
 > show databases  # list all databases 
@@ -95,17 +111,20 @@ Here are some mongo commands that might be helpful.
 > db.runCommand ({ dropDatabase : 1 }) # destroy the active database
 ```
 
-#### 10/22/2015
+**10/22/2015**
+
 A few students asked if there is going to be a quiz this week.  Yes! there shall be one.  In fact, this is to note that we will have a quiz every week for the rest of the quarter. This week's quiz will be on:
   * Design Patterns and Architecture Patterns
   * Architecture Framework (to prepare for this do the exercise described in lab 4)
 
-#### 10/21/2015
+**10/21/2015**
+
 A number of students have asked my about homework 1. Your task is to write a registration system.  This homework is due 10/30, 10/31, 11/2 (depending which class you're attending). You are should get started right away.
 
-* [10/21/2015] I have updated [Lecture 4 Notes](documents/notes/05_framework-complex-systems.md) with a detail tutorial on how to get a web application running.  Students are recommended to go through the process before attempting homework 1.
+* [10/21/2015**] I have updated [Lecture 4 Notes](documents/notes/05_framework-complex-systems.md) with a detail tutorial on how to get a web application running.  Students are recommended to go through the process before attempting homework 1.
 
-#### 10/20/2015
+**10/20/2015**
+
 Here are the solutions the programming part of the quiz:
 
 ```clojure
@@ -153,14 +172,16 @@ Here are the solutions the programming part of the quiz:
  min (map dist [{:x 1 :y 2 :z 3} {:x 2 :y 4 :z -2} {:x 1 :y -1 :z 0}]))
 ```
 
-#### 10/20/2015
+**10/20/2015**
+
 Here is an excellent article by [Ed Featherson](https://dzone.com/users/2566190/ed-featherston.html) from [DZone](http://dzone.com) ["Why Do I Need an Architect?"](https://dzone.com/articles/why-do-i-need-an-architect-redux-1).  The main point is:
 
 > From the 10,000 foot level, the architect has ultimate ownership of the technology vision, definition, leadership, and responsibility for the successful delivery of the system.
 
 When you do your first homework assignment, try to focus on the big picture.  In otherwords, try to think as an architect.
 
-#### 10/15/2015
+**10/15/2015**
+
 No quiz this week.  We will, however, do a complete application from scratch in class.  The goal here is to demonstrate to students a complete project from a software architecture perspective. 
 
 Please note that this is a very tight and compressed class so we will not have time to troubleshoot computer problems.  To be most effective and to maximize our time together, please try to get the development environment working before class.  In summary, students should come to class with the following installed and ready to go:
@@ -169,28 +190,32 @@ Please note that this is a very tight and compressed class so we will not have t
 * leiningen
 * Light Table or an IDE of their choosing
 
-#### 10/10/2015
+**10/10/2015**
+
 A student asked about team composition:
 
 > Is it ok to do the project by your own? Since I don't have any friend who take this course, that means I want to do the project by my own. 
 
 I don't have a problem with students going solo.
 
-#### 10/9/2015
+**10/9/2015**
+
 A student asked: "Could you just let me know what would be the last working day for CS590 for this quarter?"
 
-According to the [CSULA final schedule](http://web.calstatela.edu/classschedule/pdf/fall_book/27FinalexamscheduleFall2015.pdf):
+According to the [CSULA final schedule](http://web.calstatela.edu/classschedule/pdf/fall_book/27FinalexamscheduleFall2015**.pdf):
 
-* Monday Class: 7:30 - 10:00 PM December 7, 2015
-* Friday Class: 4:30 - 7:00 PM December 11, 2015
-* Saturday Class: 8:00 - 10:30 AM December 12, 2015
+* Monday Class: 7:30 - 10:00 PM December 7, 2015**
+* Friday Class: 4:30 - 7:00 PM December 11, 2015**
+* Saturday Class: 8:00 - 10:30 AM December 12, 2015**
 
-That being said, we will try to arrange the final presentation so that all three sections can do presentation together at a common location and time.  Logistics to follow.  To be on the safe side, I recommend that students do not make travel plans earlier than December 13, 2015.
+That being said, we will try to arrange the final presentation so that all three sections can do presentation together at a common location and time.  Logistics to follow.  To be on the safe side, I recommend that students do not make travel plans earlier than December 13, 2015**.
 
-#### 10/9/2015
+**10/9/2015**
+
 A number of students asked what do they need to review to be prepared for the quiz.  Students need do the reading assignments and watch the videos listed in the `Reading Assignment` section.  As for the programming part, the quiz will include simple code snippets. You will not be asked to write a full application during the quiz (this is not feasible nor practical).
 
-#### 10/8/2015
+**10/8/2015**
+
 A student asked me this question:
 
 > I had a doubt regarding the "let" function, while teaching us you told us that "let" function can be used to create variables which could be used within a particular scope. 
@@ -214,19 +239,24 @@ To be clear `let` is a clojure special form (i.e. a fundamental part of the lang
 
 The use of `def` is not encouraged and should be used sparingly.  In this sense whenever you define a variable with `def` it is only visible in that scope.  When exiting from the scope the variable goes out of scope.
 
-#### 10/5/2015
+**10/5/2015**
+
 This is to remind students that [clojuredocs.org](http://clojuredocs.org) is an excellent reference site for clojure programming.  Also, note that if you find yourself writing a function or routine, please check to see if this has already been written.  Chances are that someone has already written something similar to what you're intending to write.
 
-#### 10/2/2015
+**10/2/2015**
+
 As of today, the Monday class is full.  You can no longer switch class unless you have **explicit** permission from me. As a side note, for those of you thinking that by attending the Monday session, you can perhaps get a leg up on the quiz questions, don't bother!  Your quizzes will consist of 5 questions randomly drawn from a pool of questions.
 
-#### 10/1/2015
+**10/1/2015**
+
 Before looking at the solution, you should take a look at the [non-graded quiz](documents/notes/02_functional-primer.md#non-graded-quiz) and use it as a checkpoint.
 
-#### 9/30/2015
+**9/30/2015**
+
 Note that we will **not** have a quiz this week.  Quiz 1 will be postponed to the following week.  We will continue to review some more functional programming examples to get people more comfortable.
 
-#### 9/30/2015
+**9/30/2015**
+
 Non-grade quiz solution & clarification on the MR example in class:
 ```clojure
 (defn combine [& args]
@@ -241,14 +271,17 @@ Non-grade quiz solution & clarification on the MR example in class:
 (println (combine "John" "Mike" "James"))
 (println (combine-with-space "John" "Mike" "James"))
 ```
-#### 9/28/2015
+**9/28/2015**
+
 Regarding the reading and video-watching assignments, they are light on theory and more on practice.  Note that the reading assignments are required. In otherwords, you will be asked about them on the quiz.
   * Quiz tip 1: Understand the basic tenets of a BOT architecture.
   * Quiz tip 2: Practice code found in chapter 3 of [Clojure for the Brave and True](https://www.nostarch.com/download/Clojure%20for%20the%20Brave%20and%20True_sample_ch3.pdf).
 
-#### 9/27/2015
+**9/27/2015**
+
 A number of students have asked if they can attend a different session than the one that they are assigned to attend.  My short answer is: it should be fine.  However, please keep in mind that once you attend a different session, you need to stick to that session.  This is because of the varying class dynamics and pace.
 
-#### 9/26/2015
+**9/26/2015**
+
 Please review the [course syllabus](Syllabus.md) and come to class with questions.  In order for us to be prepared for the first day of class, please bring your laptop computer.  We will have a short non-graded assessment quiz.  The purpose of the quiz is to gauge the the students' programming level.
 
