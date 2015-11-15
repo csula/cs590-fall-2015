@@ -13,7 +13,7 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 * Assignment: [Homework 1](documents/homeworks/homework1.md)
 * Lecture 5: [Layered Architecture Pattern](documents/notes/06_layered-architecture.md)
 * Lecture 6: [Event Driven Pattern](documents/notes/07_event-driven.md)
-* Lecture 7: [Event Driven Pattern revisit]documents/notes/08_clojurescript-event-driven.md)
+* Lecture 7: [Event Driven Pattern revisited](documents/notes/08_clojurescript-event-driven.md)
 * Assignment: [Homework 2](documents/homeworks/homework2.md)
 * Lecture 8: [Microservices](documents/notes/09_microservices.md)
 * Assignment: [Homework 3](documents/homeworks/homework3.md)
