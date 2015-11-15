@@ -6,9 +6,7 @@ The heart of this assignment is to construct a single page application (SPA), wh
 
 Let us break this down further by way of describing the customer's requirements:
 
-* Students must be able to register
-* Students must be able to login
-* Students must be able to quizes (for now you can hard-code in 4 quizzes)
+* Students must be able to see quizzes (for now you can hard-code in 4 quizzes)
 * Students must be able to see homework assignments (for now you can hard-code in 4 homework assignments)
 * Students must be able to take quizzes -- note that there is no `submit` button, instead there should be a `done` button and this button saves the quiz state to the database
 * Students must be able to see current all grades 
