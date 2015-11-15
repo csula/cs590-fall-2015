@@ -14,5 +14,6 @@ Let us break this down further by way of describing the customer's requirements:
 * Students must be able to see current all grades 
 * Students must be able to logout
 
+## Design the homework
 
-
+You should spend sometime design the system.  How this system would work when you put the components together.  Again an architectural diagram will come in handy.
