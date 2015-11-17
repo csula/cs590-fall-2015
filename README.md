@@ -41,7 +41,7 @@ Here is the `add-project` fucntion:
 (defn add-project [request]
   (let [data-map (:json-params request)]
      (clojure.pprint/pprint data-map)
-     (ring-response/created "http://whatever/" "created")))
+     (ring-resp/created "http://whatever/" "created")))
 ```
 
 Here is the `get-project` function:
