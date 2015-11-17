@@ -25,6 +25,25 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 **11/15/2015**
 
+Here is the `post` payload:
+
+```json
+{ 
+"lazy-mouse" : {
+ "name" : "Jerry",
+ "color": "grey"
+ }
+}
+```
+Here is the `add-project` fucntion:
+
+```clojure
+(defn add-project [request]
+  (let [data-map (:json-params request)]
+     (clojure.pprint/pprint data-map)
+     (ring-response/created "http://whatever/" "created")))
+```
+
 Here is the `get-project` function:
 
 ```clojure
