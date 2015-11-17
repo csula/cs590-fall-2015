@@ -23,6 +23,24 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+**11/15/2015**
+
+Here is the map for your convenience:
+
+```clojure
+(def mock-project-collection
+ {
+  :sleeping-cat {
+    :name "Garfield"
+    :color "orange"
+  }
+  :sleeping-dog {
+    :name "Odin"
+    :color "yellow"
+  }
+ })
+```
+
 **11/14/2015**
 
 Many thanks to [Akshay S.](https://github.com/akshays04) for the tutorial on how to integrate [Google Captcha Tutorial](documents/notes/pdfs/google-captcha.pdf).
