@@ -25,6 +25,15 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 **11/15/2015**
 
+Here is the `get-project` function:
+
+```clojure
+(defn get-project [request]
+  (let [projname (get-in request [:path-params :project-name])
+        value ((keyword projname) mock-project-collection)]
+    (bootstrap/json-response value)))
+```
+
 Here is the map for your convenience:
 
 ```clojure
