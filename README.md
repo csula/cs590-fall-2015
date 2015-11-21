@@ -25,7 +25,11 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 **11/20/2015**
 
-Let us clone this website to your desktop: `https://github.com/luminus-framework/multi-client-ws-immutant`
+For Thanksgiving weekend, since the University will be close on Friday (11/27) *and* Saturday (11/28), let us have class instead on Sunday (11/29) at 1:15 PM. I will confirm location.  We will still have Monday class at regular scheduled time and location.
+
+**11/20/2015**
+
+Let us clone this website to your desktop: `https://github.com/luminus-framework/multi-client-ws-immutant`.  It will help work toward the real-time scoreboard example in class.
 
 **11/15/2015**
 
