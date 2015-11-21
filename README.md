@@ -23,6 +23,10 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+**11/20/2015**
+
+Let us clone this website to your desktop: `https://github.com/luminus-framework/multi-client-ws-immutant`
+
 **11/15/2015**
 
 Here is the `post` payload:
