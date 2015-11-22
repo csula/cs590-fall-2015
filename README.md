@@ -25,13 +25,13 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 **11/22/2015**
 
-At my request, @savaness created ticket #13. To be clear, for homework 3.  Your assignment will meet the following "guide rails"
+At my request, @savaness created ticket #13. To be clear, for homework 3, your assignment will meet the following "guide rails":
 
 1. Single Page Application (1 html)
 2. No Refresh (`action` will not have a route)
 3. JSON transfer between client/server (all communications between browser and server will be via header `content-type/json`)
 
-If you have `doubts` please see me, post to gitter via public forum or `PM` me on gitter.  You can also [create issues](https://github.com/csula/cs590-fall-2015/issues).  But please understand that **there will not be an extension offered for this assignment**.  Please don't ask for an extension.
+If you have `doubts` please see me, post to gitter via public forum or `PM` me on gitter.  You can also [create issues](https://github.com/csula/cs590-fall-2015/issues).  But please understand that **there will not be an extension offered for this assignment**.  [Please don't ask for an extension](documents/notes/images/18zv86xndsjh7png.png).
 
 There are two opportunities to present the homework assignment:
 * Sunday 11/29
@@ -48,7 +48,6 @@ Finally, this is a reminder that the coding part for the assignment is simple --
 
 These are questions that I will ask **you** about your project.  You will receive a score from 0 to 10.  0 is nothing done, 10 is eveything done correctly and that you comprehend the architecture of your system.
 
-
 **11/20/2015**
 
 For Thanksgiving weekend, since the University will be close on Friday (11/27) *and* Saturday (11/28), let us have class instead on Sunday (11/29) at 1:15 PM. I will confirm location.  We will still have Monday class at regular scheduled time and location.  This addresses ticket #14.
@@ -56,6 +55,15 @@ For Thanksgiving weekend, since the University will be close on Friday (11/27) *
 **11/20/2015**
 
 Let us clone this website to your desktop: `https://github.com/luminus-framework/multi-client-ws-immutant`.  It will help work toward the real-time scoreboard example in class.
+
+```clojure
+[io.pedestal.interceptor.helpers :refer [definterceptor defhandler]] 
+
+(defhandler token-check [request] 
+  (let [ token (get-in request [:headers "x-catlog-token"])] 
+    (if (not (= token "o brave new world")) 
+      (assoc (ring-resp/response {:body "access denied"}) :status 403))))
+```
 
 **11/15/2015**
 
