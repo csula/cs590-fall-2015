@@ -23,6 +23,20 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+**11/23/2015**
+
+To perform the authentication API here is the code that you'll need to cut-and-paste:
+
+```clojure
+[io.pedestal.interceptor.helpers :refer [definterceptor defhandler]] 
+
+(defhandler token-check [request] 
+  (let [ token (get-in request [:headers "x-catlog-token"])] 
+    (if (not (= token "o brave new world")) 
+      (assoc (ring-resp/response {:body "access denied"}) :status 403))))
+```
+
+
 **11/22/2015**
 
 At my request, @savaness created ticket #13. To be clear, for homework 3, your assignment will meet the following "guide rails":
@@ -50,20 +64,11 @@ These are questions that I will ask **you** about your project.  You will receiv
 
 **11/20/2015**
 
-For Thanksgiving weekend, since the University will be close on Friday (11/27) *and* Saturday (11/28), let us have class instead on Sunday (11/29) at 1:15 PM. I will confirm location.  We will still have Monday class at regular scheduled time and location.  This addresses ticket #14.
+For Thanksgiving weekend, since the University will be closed on Friday (11/27) *and* Saturday (11/28), let us have class instead on Sunday (11/29) at 1:15 PM. I will confirm location.  We will still have Monday class at regular scheduled time and location.  This addresses ticket #14.
 
 **11/20/2015**
 
 Let us clone this website to your desktop: `https://github.com/luminus-framework/multi-client-ws-immutant`.  It will help work toward the real-time scoreboard example in class.
-
-```clojure
-[io.pedestal.interceptor.helpers :refer [definterceptor defhandler]] 
-
-(defhandler token-check [request] 
-  (let [ token (get-in request [:headers "x-catlog-token"])] 
-    (if (not (= token "o brave new world")) 
-      (assoc (ring-resp/response {:body "access denied"}) :status 403))))
-```
 
 **11/15/2015**
 
