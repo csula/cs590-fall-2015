@@ -23,9 +23,35 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+**11/22/2015**
+
+At my request, @savaness created ticket #13. To be clear, for homework 3.  Your assignment will meet the following "guide rails"
+
+1. Single Page Application (1 html)
+2. No Refresh (`action` will not have a route)
+3. JSON transfer between client/server (all communications between browser and server will be via header `content-type/json`)
+
+If you have `doubts` please see me, post to gitter via public forum or `PM` me on gitter.  You can also [create issues](https://github.com/csula/cs590-fall-2015/issues).  But please understand that **there will not be an extension offered for this assignment**.  Please don't ask for an extension.
+
+There are two opportunities to present the homework assignment:
+* Sunday 11/29
+* Monday 11/30
+
+Finally, this is a reminder that the coding part for the assignment is simple -- we've already demonstrated this for the first two assignments.  It's important that you understand the architecture aspect.  To this end, please be prepared to discuss:
+
+* What is your design?
+* Who is talking to who and when?
+* What are the components?
+* What is architecture pattern?  Event-driven? 
+* What are your potential microservices (ok even if you have not implemented any)?
+* What are your tradeoffs?
+
+These are questions that I will ask **you** about your project.  You will receive a score from 0 to 10.  0 is nothing done, 10 is eveything done correctly and that you comprehend the architecture of your system.
+
+
 **11/20/2015**
 
-For Thanksgiving weekend, since the University will be close on Friday (11/27) *and* Saturday (11/28), let us have class instead on Sunday (11/29) at 1:15 PM. I will confirm location.  We will still have Monday class at regular scheduled time and location.
+For Thanksgiving weekend, since the University will be close on Friday (11/27) *and* Saturday (11/28), let us have class instead on Sunday (11/29) at 1:15 PM. I will confirm location.  We will still have Monday class at regular scheduled time and location.  This addresses ticket #14.
 
 **11/20/2015**
 
