@@ -39,7 +39,7 @@ To perform the authentication API here is the code that you'll need to cut-and-p
 
 **11/22/2015**
 
-At my request, @savaness created ticket #13. To be clear, for homework 3, your assignment will meet the following "guide rails":
+At my request, [@savaness](https://github.com/savaness) created [ticket #13](https://github.com/csula/cs590-fall-2015/issues/13). To be clear, for [homework 3](https://github.com/csula/cs590-fall-2015/blob/master/documents/homeworks/homework3.md), your assignment will meet the following "guide rails":
 
 1. Single Page Application (1 html)
 2. No Refresh (`action` will not have a route)
