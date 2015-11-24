@@ -23,6 +23,10 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+**11/24/2015**
+
+As you start to think about the last homework assignment and the project, please take a minute out to read [The DZONE guide to enterprize integration 2015 edition](https://dzone.com/storage/assets/668425-dzone-guide-enterpriseintegration.pdf).  Notice the emphasis that is being placed on microservices.
+
 **11/23/2015**
 
 Here is the code for the scoreboard example we did in class:
