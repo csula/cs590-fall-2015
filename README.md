@@ -25,6 +25,26 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 **11/23/2015**
 
+Here is the code for the scoreboard example we did in class:
+
+```clojure
+(defn ws-handler [request]  
+  (async/as-channel request websocket-callbacks))
+
+(defn broadcast-score! [msg]
+  (println (str "|" msg "|"))
+  (doseq [channel @channels]
+    (async/send! channel msg)))
+
+(defn mod-message [message] (format "[\"^ \",\"~:message\",\"%s\"]" message))
+
+(defroutes websocket-routes
+  (GET "/score/:message" [message] (broadcast-score! (mod-message message)))
+  (GET "/ws" [] ws-handler))
+```
+
+**11/23/2015**
+
 To perform the authentication API here is the code that you'll need to cut-and-paste:
 
 ```clojure
