@@ -28,9 +28,6 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 Here is the code for the scoreboard example we did in class:
 
 ```clojure
-(defn ws-handler [request]  
-  (async/as-channel request websocket-callbacks))
-
 (defn broadcast-score! [msg]
   (println (str "|" msg "|"))
   (doseq [channel @channels]
