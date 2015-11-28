@@ -6,8 +6,9 @@
 
 (defn message-list []
   [:ul
-   (for [[i message] (map-indexed vector @messages)]
-     ^{:key i} [:p i " " message])])
+   (for [[i message] (take 500 (reverse (sort-by second (map-indexed vector @messages))))]
+     ^{:key i}
+     [:p message])])
 
 (defn message-input []
   (let [value (atom nil)]

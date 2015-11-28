@@ -1,11 +1,12 @@
 (ns multi-client-scrabble.routes.websockets
   (:require [compojure.core :refer [GET defroutes wrap-routes]]
             [taoensso.timbre :as timbre]
-            [immutant.web.async       :as async]))
+            [immutant.web.async :as async]))
 
 (defonce channels (atom #{}))
 
 (defn notify-clients! [channel msg]
+  (println (str "|" msg "|"))
   (doseq [channel @channels]
     (async/send! channel msg)))
 
@@ -26,5 +27,23 @@
 (defn ws-handler [request]
   (async/as-channel request websocket-callbacks))
 
+(defn mod-message [msg]
+  (let [idx (rand 10)]
+    (format "[\"^ \",\"~:message\",\"%f %s\"]" idx msg)))
+
+(defn broadcast-score! [msg]
+  (doseq [channel @channels]
+    (async/send! channel (mod-message msg)))
+  (doseq [channel @channels]
+    (async/send! channel (mod-message msg)))
+  (doseq [channel @channels]
+    (async/send! channel (mod-message msg)))
+  (doseq [channel @channels]
+    (async/send! channel (mod-message msg)))
+  (doseq [channel @channels]
+    (async/send! channel (mod-message msg)))
+  )
+
 (defroutes websocket-routes
+  (GET "/update/:msg" [msg] (broadcast-score! msg))
   (GET "/ws" [] ws-handler))
