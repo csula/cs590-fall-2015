@@ -25,7 +25,7 @@
                  [cljs-ajax "0.5.1"]
                  [org.immutant/web "2.1.1"]]
   :min-lein-version "2.0.0"
-  :uberjar-name "multi-client-ws.jar"
+  :uberjar-name "multi-client-scrabble.jar"
   :jvm-opts ["-server"]
   :main multi-client-scrabble.core
   :plugins [[lein-environ "1.0.1"]
