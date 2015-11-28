@@ -7,8 +7,7 @@
 (defn message-list []
   [:ul
    (for [[i message] (map-indexed vector @messages)]
-     ^{:key i}
-     [:li message])])
+     ^{:key i} [:p i " " message])])
 
 (defn message-input []
   (let [value (atom nil)]
@@ -24,23 +23,21 @@
             {:message @value})
            (reset! value nil))}])))
 
-(defn home-page []
-  [:div.container
-   [:div.row
-    [:div.col-md-12
-     [:h2 "Welcome to chat"]]]
-   [:div.row
+(defn score-board []
+  [:div {:class "panel panel-default"}
+   [:div {:class "panel-heading"}
+     [:h3
+      [:div "Score Board"]]]
+   [:div {:class "panel-body"}
     [:div.col-sm-6
-     [message-list]]]
-   [:div.row
-    [:div.col-sm-6
-     [message-input]]]])
+     [message-list]]
+     [message-input]]])
 
 (defn update-messages! [{:keys [message]}]
-  (swap! messages #(vec (take 10 (conj % message)))))
+  (swap! messages #(vec (conj % message))))
 
 (defn mount-components []
-  (reagent/render-component [#'home-page] (.getElementById js/document "app")))
+  (reagent/render-component [#'score-board] (.getElementById js/document "scoreboard")))
 
 (defn init! []
   (ws/make-websocket! (str "ws://" (.-host js/location) "/ws") update-messages!)
