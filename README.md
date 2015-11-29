@@ -29,6 +29,8 @@ All after discussion with some students online, I am going to relax the third as
 
 Also you do not have to complete the assignments by Sunday/Monday.  You can submit it next week (12/4, 12/5, 12/7).  The final "exam" (12/12/2015) will be demoing the final assignment (hw4 and project, which is cleaning up of the 4th assignment and adding some additional features of your choosing).
 
+Homework 3 and homework 4 can be done in team.  Be sure to be able to discuss the architecture of your design when you meet with me.
+
 **12/28/2015**
 
 All a number of you are feeling a tremendous amount of pain with the third homework assignments.  I feel your pain.  Let us discuss ways in which we can make it simpler and achievable.
