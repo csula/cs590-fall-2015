@@ -23,6 +23,12 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+**12/29/2015**
+
+All after discussion with some students online, I am going to relax the third assignment and remove the SPA requirement.  You are welcome to implement the solution as you see fit without the SPA requirement.  
+
+Also you do not have to complete the assignments by Sunday/Monday.  You can submit it next week (12/4, 12/5, 12/7).  The final "exam" (12/12/2015) will be demoing the final assignment (hw4 and project, which is cleaning up of the 4th assignment and adding some additional features of your choosing).
+
 **12/28/2015**
 
 All a number of you are feeling a tremendous amount of pain with the third homework assignments.  I feel your pain.  Let us discuss ways in which we can make it simpler and achievable.
