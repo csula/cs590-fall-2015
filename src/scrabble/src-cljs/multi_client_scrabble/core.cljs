@@ -4,11 +4,17 @@
 
 (defonce messages (atom []))
 
+(defn get-top-five []
+  (take 100 (reverse (sort-by first (map-indexed vector @messages)))))
+
+(defn sort-reverse-by-value [a]
+  (sort-by second a))
+
 (defn message-list []
-  [:ul
-   (for [[i message] (take 500 (reverse (sort-by second (map-indexed vector @messages))))]
+  [:div
+   (for [[i message] (get-top-five)]
      ^{:key i}
-     [:p message])])
+     [:p i " " message])])
 
 (defn message-input []
   (let [value (atom nil)]
