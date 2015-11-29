@@ -23,6 +23,12 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+**12/28/2015**
+
+All a number of you are feeling a tremendous amount of pain with the third homework assignments.  I feel your pain.  Let us discuss ways in which we can make it simpler and achievable.
+
+Friday and Saturday students can meet with me tomorrow at 1:00 PM in our classroom and discuss ways to make this assignment achievable.  In the mean time please enjoy your weekend.
+
 **12/25/2015**
 
 This is a fascinating read on the [Momento Pattern]( https://dzone.com/articles/memento-pattern-1) which allows for a system to save its internal state to an external source; this allows for hibernation of a running system.  Question of the day: does the momento pattern support or contradict the use of immutables?
