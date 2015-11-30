@@ -345,9 +345,22 @@ Finally, we need to update `trivia/src/trivia/service.clj` so that the end point
               ::bootstrap/port 8080})
 ```
 
-Note that `question` is hard-coded in the above example.  However, with very little imagination, students should be able to obtain questions from either the database (using `monger`) or a text file (using `clojure.java.io`).
+Some observations:
 
-### Looking ahead
+* `question` is hard-coded in the above example.  However, with very little imagination, students should be able to obtain questions from either the database (using `monger`) or a text file (using `clojure.java.io`).
+
+* We've removed the interceptor, this is primarily due to how code is being passed onto the server.  To put the interceptor back, we'd need to modify `client.cljs` and specify that data being passwd is of type `application/json` *and* actually convert to json format from clojure map.  This process is non-trivial on the client (clojurescript) side.
+
+### Compile and run
+
+To compile and run Open two terminal windows:
+
+* In one terminal type `lein run` inside the `trivia` directory
+* In the other terminal, type `lein cljsbuild auto`
+
+Once compilation completes, the trivia game available at `http://localhost:8080/game`.
+
+## Looking ahead
 
 The above example demonstrate that we can create a rather trivial trivia game using everything that we've discussed in class by modifying about 100 lines of code.  The next thing to do is to think about the data that is being passed back and forth and the representation of the a "real" trivia game.  
 
