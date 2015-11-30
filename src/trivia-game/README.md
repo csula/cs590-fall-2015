@@ -265,6 +265,7 @@ Update the `trivia-cls/src-cls/client.clsj` so that it can request JSON and gene
 
 Finally, we need to update `trivia/src/trivia/service.clj` so that the end-points can respond to client correctly.
 
+```clojure
 (ns trivia.service
   (:require [trivia.layout :as layout]
             [io.pedestal.http :as bootstrap]
