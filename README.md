@@ -24,6 +24,10 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+**12/30/2015**
+
+For those of you who found the SPA application to be painful, I would encourage you to take a look at a [simple trivia game example](src/trivia).  It should give you enough inspiration to build an SPA application without too much of an issue.  Note that although SPA is optional, you can always expand your learning horizon by looking at [reagant](https://reagent-project.github.io/) as an additional option for reactive single page application.  Ultimately as an architect, you'd need to decide what works best.
+
 **12/29/2015**
 
 All after discussion with some students online, I am going to relax the third assignment and remove the SPA requirement.  You are welcome to implement the solution as you see fit without the SPA requirement.  
