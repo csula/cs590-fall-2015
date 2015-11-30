@@ -3,6 +3,7 @@
             [multi-client-scrabble.websockets :as ws]))
 
 (defonce messages (atom []))
+(def click-count (atom 0))
 
 (defn get-top-five []
   (take 100 (reverse (sort-by first (map-indexed vector @messages)))))
@@ -40,10 +41,23 @@
      [message-list]]
      [message-input]]])
 
+(defn game-area []
+  [:div {:class "panel panel-primary"}
+   [:div {:class "panel-heading"}
+    [:h3
+     [:div "Game Area"]]]
+   [:div {:class "panel-body"}
+    [:div.col-sm-6
+     [:span "click count: " @click-count ". "
+      [:input {:type "button"
+               :value "Click me!"
+               :on-click #(swap! click-count inc)}]]]]])
+
 (defn update-messages! [{:keys [message]}]
   (swap! messages #(vec (conj % message))))
 
 (defn mount-components []
+  (reagent/render-component [#'game-area] (.getElementById js/document "game-area"))
   (reagent/render-component [#'score-board] (.getElementById js/document "scoreboard")))
 
 (defn init! []
