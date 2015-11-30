@@ -162,15 +162,15 @@ Update `project.clj` with some small changes
      :source-paths ["src-cljs"]}]})
 ```
 
-Notice that we 
+Note the changes:
 
-1. Specify `:output-to` as `"../trivia/resources/public/js/client.js"` this means that the directory `resources/public/js` must exist in the `trivia` project folder.  The idea here is that when we compile the clojurescript with the command `lein cljsbuild once` or `lein cljsbuild auto` the entire clojurescript package is generated into a file `client.js`
+* `:output-to` is set to `"../trivia/resources/public/js/client.js"`. This means that the directory `resources/public/js` must exist in the `trivia` project folder.  The idea here is that when we compile the clojurescript with the command `lein cljsbuild once` or `lein cljsbuild auto` the entire clojurescript package is generated into a file `client.js`
 
-2. Specify `:source-paths` to include `"src-cljs"` which means that this is where you'd put the `.cljs` files.
+* `:source-paths` includes `"src-cljs"` which means that this is where we will put the `.cljs` files.
 
 ## Putting everything together
 
-At this point we've demonstrated that we can update the server code `trivia` to support `selmer` and (separately) update `trivia-cljs` to compile and generate `client.js` to be used with any views requiring event-driven actions.  Let's put together the (almost) complete trivia game.
+At this point we've demonstrated that we can update the server code `trivia` to support `selmer` and (separately) update `trivia-cljs` to compile and generate `client.js` that can be used with any views requiring event-driven actions.  Let's put together the (almost) complete trivia game.
 
 ### Generate an SPA view `game.html`
 
@@ -266,6 +266,8 @@ Update the `trivia-cls/src-cls/client.cljs` so that it can request JSON and gene
                   :click get-question))
 ```
 
+The key concept here is that serialized clojure maps are sent from the server to the client and are converted to `html` and generated accordingly.  The secret source (if you can call it that) is in the functions `receive-question-callback` and `question-to-html`. 
+
 ### Update the microservices `service.clj`
 
 Finally, we need to update `trivia/src/trivia/service.clj` so that the end points can respond to client correctly.
@@ -342,6 +344,8 @@ Finally, we need to update `trivia/src/trivia/service.clj` so that the end point
               ::bootstrap/type :jetty
               ::bootstrap/port 8080})
 ```
+
+Note that `question` is hard-coded in the above example.  However, with very little imagination, students should be able to obtain questions from either the database (using `monger`) or a text file (using `clojure.java.io`).
 
 ### Looking ahead
 
