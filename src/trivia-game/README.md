@@ -179,10 +179,10 @@ Create `trivia/resources/templates/game.html`
 ```html
 <html>
   <head>
-    <title>Trivia Game</title>
+    <title>{{title}}</title>
   </head>
   <body>
-    <h1>Trivia Game</h1>
+    <h1>{{title}}</h1>
     <form id="eval-form">
       <p><input id="btn-get-question" type="button" value="get-question"/>
           <input id="btn-check-answer" type="button" value="check" /></p>
