@@ -326,9 +326,6 @@ Finally, we need to update `trivia/src/trivia/service.clj` so that the end point
       (str "ERROR: " t))))
 
 (defroutes routes
-  ;; Defines "/" and "/about" routes with their associated :get handlers.
-  ;; The interceptors defined after the verb map (e.g., {:get home-page}
-  ;; apply to / and its children (/about).
   [[["/" {:get home-page}
      ["/check-answer" {:post check-answer}]
      ["/selmer" {:get selmer-page}]
@@ -336,8 +333,6 @@ Finally, we need to update `trivia/src/trivia/service.clj` so that the end point
      ["/get-question" {:get get-question}]
      ["/about" {:get about-page}]]]])
 
-;; Consumed by trivia.server/create-server
-;; See bootstrap/default-interceptors for additional options you can configure
 (def service {:env :prod
               ::bootstrap/routes routes
               ::bootstrap/resource-path "/public"
