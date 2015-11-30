@@ -1,4 +1,4 @@
-# building a software system with clojure
+# Building a Software System with Clojure
 
 Let's us look a simple approach to building a simple trivia game with clojure.  Our approach here is as followed:
 
@@ -168,7 +168,11 @@ Notice that we
 
 2. Specify `:source-paths` to include `"src-cljs"` which means that this is where you'd put the `.cljs` files.
 
-### Putting everything together
+## Putting everything together
+
+At this point we've demonstrated that we can update the server code `trivia` to support `selmer` and (separately) update `trivia-cljs` to compile and generate `client.js` to be used with any views requiring event-driven actions.  Let's put together the (almost) complete trivia game.
+
+### Generate an SPA view `game.html`
 
 Create `trivia/resources/templates/game.html`
 
@@ -198,7 +202,9 @@ Create `trivia/resources/templates/game.html`
 </html>
 ```
 
-Update the `trivia-cls/src-cls/client.clsj` so that it can request JSON and generate HTML accordingly:
+### Update the event code `client.cljs`
+
+Update the `trivia-cls/src-cls/client.cljs` so that it can request JSON and generate HTML accordingly:
 
 ```clojure
 (ns trivia.client
@@ -237,12 +243,10 @@ Update the `trivia-cls/src-cls/client.clsj` so that it can request JSON and gene
                      (question-to-html (.getResponseText (.-target event)))))
 
 (defn receive-result-callback [event]
-  (.log js/console (str "[i] received result"))
   (d/set-text! (d/by-id div-result-id)
                (.getResponseText (.-target event))))
 
 (defn get-question [event]
-  (.log js/console (str "[i] get question"))
   (xhr/send "/get-question" receive-question-callback "GET" "")
   (events/stop-propagation event)
   (events/prevent-default event))
@@ -251,7 +255,6 @@ Update the `trivia-cls/src-cls/client.clsj` so that it can request JSON and gene
   (let [a (.-value (d/by-id "answer-box"))
         b {:answer a}
         body (serialize b)]
-    (.log js/console (str "[i] check answer: " body))
     (xhr/send "/check-answer" receive-result-callback "POST" body)
     (events/stop-propagation event)
     (events/prevent-default event)))
@@ -263,7 +266,9 @@ Update the `trivia-cls/src-cls/client.clsj` so that it can request JSON and gene
                   :click get-question))
 ```
 
-Finally, we need to update `trivia/src/trivia/service.clj` so that the end-points can respond to client correctly.
+### Update the microservices `service.clj`
+
+Finally, we need to update `trivia/src/trivia/service.clj` so that the end points can respond to client correctly.
 
 ```clojure
 (ns trivia.service
@@ -337,3 +342,14 @@ Finally, we need to update `trivia/src/trivia/service.clj` so that the end-point
               ::bootstrap/type :jetty
               ::bootstrap/port 8080})
 ```
+
+### Looking ahead
+
+The above example demonstrate that we can create a rather trivial trivia game using everything that we've discussed in class by modifying about 100 lines of code.  The next thing to do is to think about the data that is being passed back and forth and the representation of the a "real" trivia game.  
+
+## References
+
+* [Luminus Web](http://www.luminusweb.net/)
+* [Pedestal](https://github.com/pedestal/pedestal)
+
+
