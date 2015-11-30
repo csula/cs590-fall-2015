@@ -1,6 +1,4 @@
-# Course Wrap Up
-
-## Session Management
+# Session Management
 
 Consider the following concept about sessions:
 
