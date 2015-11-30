@@ -17,6 +17,7 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 * Assignment: [Homework 2](documents/homeworks/homework2.md)
 * Lecture 8: [Microservices](documents/notes/09_microservices.md)
 * Assignment: [Homework 3](documents/homeworks/homework3.md)
+* Lecture 9: [Security](documents/notes/10_security.md)
 * Assignment: [Homework 4](documents/homeworks/homework4.md)
 * Assignment: [Project](documents/final-project/project.md)
 
