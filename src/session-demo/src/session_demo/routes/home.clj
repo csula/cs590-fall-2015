@@ -17,12 +17,17 @@
 
 (defn uuid [] (str (java.util.UUID/randomUUID)))
 
-(defn set-user! [id {session :session}]
+(defn set-user-2! [id {session :session}]
   (-> (str "User set to: " id)
       response
       (assoc :session (assoc session
+                        :magic-time (new java.util.Date)
                         :user id
                         :token (uuid)))))
+
+
+(defn set-user! [id {session :session}]
+  (assoc (response (str "User set to: " id)) :session (assoc session :user id :token (uuid))))
 
 (defn remove-user! [{session :session}]
   (-> (response "")
@@ -33,7 +38,7 @@
 
 (defroutes app-session-routes
   (GET "/get-session" req (get-user req))
-  (GET "/login/:id" [id :as req] (set-user! id req))
+  (GET "/login/:id" [id :as req] (set-user-2! id req))
   (GET "/remove" req (remove-user! req))
   (GET "/logout" req (clear-session!)))
 

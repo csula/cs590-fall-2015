@@ -124,7 +124,7 @@ We want to create a simple `/selmer` endpoint to validate our service is working
               ::bootstrap/port 8080})
 ```
 
-Finally let's create `sources/templates/example.html` as followed
+Finally let's create `resources/templates/example.html` as followed
 
 ```html
 <html>
