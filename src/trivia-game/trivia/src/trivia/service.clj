@@ -31,7 +31,7 @@
 
 (defn get-question
   [request]
-  (ring-resp/response (str question)))
+  (ring-resp/response (str (disassoc question :a))))
 
 (defn get-correct-choice [q]
   (let [v (:c q)
