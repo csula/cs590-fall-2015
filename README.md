@@ -26,6 +26,10 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 **12/04/2015**
 
+The [Project Description](documents/final-project/project.md) is up.  Please take a look at it if you have questions.  Good luck! 
+
+**12/04/2015**
+
 This is a reminder that **hw3** must be graded by this week (Friday, Saturday or Monday depending on your session).  I will not grade HW3 next week.
 
 **11/30/2015**
