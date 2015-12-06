@@ -24,6 +24,10 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+**12/06/2015**
+
+For those who are interested developing a mobile application, consider watching [this video](https://www.hakkalabs.co/articles/mobile-app-development-clojurescript-cordova#!).  It describes clojurescript and cordova.
+
 **12/04/2015**
 
 The [Project Description](documents/final-project/project.md) is up.  Please take a look at it if you have questions.  Good luck! 
