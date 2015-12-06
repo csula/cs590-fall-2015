@@ -43,7 +43,7 @@
   (try
     (let [expr (read-string (slurp (:body request)))
           answer (:answer expr)
-          a (if (or (nil? answer) (= answer "")) 0 (Integer. (:answer expr)))]
+          a (if (or (nil? answer) (= answer "")) 0 (Integer. (:answer expr))]
       (if (= a (get-correct-choice question))
         (ring-resp/response "correct")
         (ring-resp/response "incorrect")))
