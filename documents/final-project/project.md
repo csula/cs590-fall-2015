@@ -26,3 +26,4 @@ Finally, I am interested in your explanation of the architecture.  Be sure to un
 1. Implement a captcha that is other than google captcha
 2. Implement a third party authentication
 3. Develop a mobile client 
+4. Implement a SAP model using `reagent` (the application must be fairly mature)
