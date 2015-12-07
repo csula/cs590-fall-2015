@@ -27,3 +27,12 @@ Finally, I am interested in your explanation of the architecture.  Be sure to un
 2. Implement a third party authentication
 3. Develop a mobile client 
 4. Implement a SAP model using `reagent` (the application must be fairly mature)
+
+## Grading Rubric
+
+* **Design decisions**  you will be given a survey with a few questions.  The questions will speak specifically to your project [5 pts]  
+* **Functionality** it must do two primary tasks: 1. take quiz/exam, 2. grade quiz/exam  [5 pts]
+* **Dynamic content** nothing is to be hardcoded (see discussion above). [5 pts]
+* **Look and feel** your project will have to look like a real product.  In other words, a half-baked project is not going to receive the full credit [5 pts]
+
+
