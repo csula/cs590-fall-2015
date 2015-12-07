@@ -24,6 +24,10 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+**12/07/2015**
+
+Grading Rubric is updated in the [project.md]((documents/final-project/project.md) document.  Please review it so that you're familiar with how your project will be evaluated.
+
 **12/06/2015**
 
 For those who are interested developing a mobile application, consider watching [this video](https://www.hakkalabs.co/articles/mobile-app-development-clojurescript-cordova#!).  It describes clojurescript and cordova.

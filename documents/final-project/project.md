@@ -30,7 +30,7 @@ Finally, I am interested in your explanation of the architecture.  Be sure to un
 
 ## Grading Rubric
 
-* **Design decisions** you will be given a survey with a few questions.  The questions will speak specifically to your project [5 pts]  
+* **Design decisions** you will be given a survey with a few questions.  The questions will speak specifically to your project [5 pts] -- PLEASE NOTE that you will do the survey by yourself.  You are not permitted to collaborate on the design survey. 
 * **Functionality** it must do two primary tasks: 1. take quiz/exam, 2. grade quiz/exam  [5 pts]
 * **Dynamic content** nothing is to be hardcoded (see discussion above). [5 pts]
 * **Look and feel** your project will have to look like a real product.  In other words, a half-baked project is not going to receive the full credit [5 pts]
