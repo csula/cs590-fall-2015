@@ -9,11 +9,9 @@ Here are the requirements for the final project:
 
 * You **do not** have to do homework page/tab
 
-* Your software must be able to support dynamic
-  * You **cannot hard code** anything, for example number of quizzes, number of questions per quiz, or number of choices per question
-  * Grades should be reflect the actual quiz results
-
-You can think of being dynamic as followed: If the teacher wants to add new a new quiz, does he/she have to edit `.html`, `.clj`, or `.cljs`? If the answer is yes then it is _not_ dynamic.
+* Your software must be able to support dynamic data
+  * You **cannot hard code** anything. For example, the number of quizzes, number of questions per quiz, or number of choices per question must not be hardcoded into the `html`, `clj`, or `cljs`. You can think of being dynamic as followed: If the teacher wants to add new a new quiz, does he/she have to edit `.html`, `.clj`, or `.cljs`? If the answer is yes then it is _not_ dynamic.
+  * Grades should be reflect the actual quiz results.  One such way to think of this is that you have a view that has all of the grades in one page.
 
 * Please be prepared to discuss architecture, trade design decision, guide rails, etc.
 
@@ -21,7 +19,7 @@ You can think of being dynamic as followed: If the teacher wants to add new a ne
 
 Finally, I am interested in your explanation of the architecture.  Be sure to understand it thoroughly.  I realize that you are working in teams, please don't hide in the shadow of your teammate.  
 
-### extra credit
+### Extra Credit
 
 1. Implement a captcha that is other than google captcha
 2. Implement a third party authentication
