@@ -13,7 +13,7 @@ Here are the requirements for the final project:
   * You **cannot hard code** anything, for example number of quizzes, number of questions per quiz, or number of choices per question
   * Grades should be reflect the actual quiz results
 
-You can think of being dynamic as followed, if the teacher wants to add new a new quiz, does he/she have to edit `.html`, `.clj`, or `.cljs`? If the answer is yes then it is _not_ dynamic
+You can think of being dynamic as followed: If the teacher wants to add new a new quiz, does he/she have to edit `.html`, `.clj`, or `.cljs`? If the answer is yes then it is _not_ dynamic.
 
 * Please be prepared to discuss architecture, trade design decision, guide rails, etc.
 
