@@ -24,6 +24,15 @@ Welcome to CS590 Advanced Software Architecture. This is a fast-paced course wit
 
 ## Announcements
 
+**12/12/2015**
+
+Final note:  Folks, if you have not presented your project or was told that you need to complete it correctly, you will have two opportunities to present it:
+
+* Monday 12/14/2015 at 6:10 PM in the our regular classroom
+* Tuesday 12/15/2015 at 8:00 AM in our regular classroom
+
+Please note the time for Tuesday: 8:00 AM.  I will not be in the class at 6:10 PM as previously discussed.
+
 **12/10/2015**
 
 Regarding presentation schedule.  Please note that I will be in the classroom on Friday December 11, 2015 from 6:10 to 9:00 PM for project presentation.  I will also be in the classroom on Saturday December 12, 2015 from 2:30 to 6:00 PM for project presentation.  I will return your quiz grades (note only four quizzes will be graded, which means that the 4 quizzes we did not take will be given as credit).  We will also discuss your project and understanding of it.  Finally, please review the grading rubric for the final project.  You will be given a survey, which I will use to assess your final project grade.
