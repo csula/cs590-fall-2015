@@ -26,7 +26,7 @@
 
 ## Grading Allocation
 
-1. Quizz (8) - 40 points
+1. Quiz (8) - 40 points
 2. Homework (4) - 40 points
 3. Project - 20 points
 
